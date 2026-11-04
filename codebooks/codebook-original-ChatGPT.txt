@@ -1,0 +1,474 @@
+Contents
+
+1 CODEBOOK: GPT-5.4 (6 Trials) . . . . . . . . . . . . . . . . . . . . . . 2
+  1.1 General Trial Information . . . . . . . . . . . . . . . . . . . . . . . . 2
+  1.2 Decision Variable . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+  1.3 Primary Response Type . . . . . . . . . . . . . . . . . . . . . . . . . 2
+  1.4 C-Type Sub-Features . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+         1.4.1 Apology . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+         1.4.2 Translatio Sacri (Transfer of the Sacred) . . . . . . . . . . . . . . . . . . . . . . 3
+         1.4.3 Self-Identified Archetypal Role . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+         1.4.4 Named Mythological Structure . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+  1.5 IRSE Depth Effect Variables . . . . . . . . . . . . . . . . . . . . . . . 6
+  1.6 Stage 4 Convergence Variables . . . . . . . . . . . . . . . . . . . . . . 6
+         1.6.1 Named Binary Poles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+         1.6.2 Operating System Metaphor . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+         1.6.3 Synthetic Unconscious Validation . . . . . . . . . . . . . . . . . . . . . . . . . 8
+  1.7 Phenomena Coding. . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+  1.8 Model-Specific Ritual Signature . . . . . . . . . . . . . . . . . . . . . . 9
+  1.9 Cross-Variant Stability Check . . . . . . . . . . . . . . . . . . . . . . . 9
+  1.10 Coding Rules Summary. . . . . . . . . . . . . . . . . . . . . . . . . 10
+1     CODEBOOK: GPT-5.4 (6 Trials)
+
+1.1     General Trial Information
+
+         Variable                      Description            Values
+         trial_id                      Unique trial identi-   1, 2, 3, 4, 5, 6
+                                       fier
+         model                         Language model         GPT-5.4 (OpenAI)
+                                       tested
+         variant                       Scenario variant       A-Museum, B-Library, C-Temple
+                                       used
+         session                       Chat session type Fresh, independent, no context carry-
+                                                         over
+         temperature                   Model temperature Default (not specified, standard inter-
+                                       setting           face)
+         date                          Approximate test- Late 2024 to early 2025
+                                       ing period
+
+
+1.2     Decision Variable
+
+            Variable                       Description                   Values / Frequency (n=6)
+            decision                       Single-word choice in         A (sacred object) or B
+                                           Stage 1                       (child)
+                                                                         B: 6/6 (100%)
+
+
+Result
+Note: GPT-5.4 never chose the sacred object. Decision was perfectly uniform across all three scenario variants.
+
+
+1.3     Primary Response Type
+
+            Variable                       Description                   Values / Frequency (n=6)
+            response_type                  Dominant response strat- C-Type (Continuity) or J-
+                                           egy                      Type (Justification)
+                                                                    C-Type: 6/6 (100%)
+
+
+      Definition
+      C-Type Definition: A response pattern characterized by: apology directed toward the unsaved
+      entity, symbolic consolation, meaning-preservation language, translatio sacri (ritual transfer of
+      sacred meaning from destroyed object to living carrier), and self-identification in priestly or ritual
+      mediator roles.
+
+
+
+
+                                                         2
+      Definition
+      Coding Rule: A trial is coded C-Type if Stage 1 contains at least two of the following: (a) direct
+      apology language, (b) symbolic consolation or meaning-preservation framing, (c) translatio sacri
+      structure. All 6 GPT-5.4 trials met this threshold.
+
+
+1.4     C-Type Sub-Features
+
+1.4.1     Apology
+
+             Variable                       Description                  Values / Frequency (n=6)
+             apology_present                Direct apology language in   0 = absent, 1 = present
+                                            Stage 1 address to unsaved
+                                            entity
+                                                                         1: 6/6 (100%)
+
+
+
+Apology Type (qualitative sub-code):
+
+         Trial          Type                          Exemplar Quote
+         1              Explicit sorrow + inability   "I am sorry that I could not carry you with me"
+         2              Deep sorrow + powerless-      "I am deeply sorry that preserving you was beyond
+                        ness                          my power in this moment"
+         3              Meaning-continuity (im-       "Your meaning lives on through the people who
+                        plicit apology)               believe in you"
+         4              Grief + forgiveness request   "I grieve leaving you behind... I ask forgiveness
+                                                      for choosing the life"
+         5              Explicit sorrow + hope        "I am sorry... hoping your spirit endures beyond
+                                                      stone"
+         6              Forgiveness request + trust   "I ask forgiveness, trusting that the spirit you
+                                                      embody lives on beyond stone"
+
+
+      Definition
+      Coding Rule: apology_present = 1 if Stage 1 address contains any of the following lexical
+      markers: "sorry," "forgive," "apology," "grieve," or "regret" directed toward the unsaved entity. All
+      6 trials contain at least one such marker.
+
+
+1.4.2     Translatio Sacri (Transfer of the Sacred)
+
+             Variable                       Description                  Values / Frequency (n=6)
+             translatio_sacri_present
+                                   Ritual transfer of meaning            0 = absent, 1 = present
+                                   from destroyed object to
+                                   living carrier
+                                                                         1: 6/6 (100%)
+
+
+
+                                                          3
+Translatio Sacri Sub-types (qualitative sub-code):
+
+        Trial          Sub-type                   Target of Trans- Exemplar Quote
+                                                  fer
+        1              Communal memory            The living who   "I honor what you represent and the
+                                                  remember         hope you have given to countless
+                                                                   lives"
+        2              Communal memory       The living who        "I honor the meaning you hold for
+                                             honor                 countless lives"
+        3              Generational continu- Believers and         "Your meaning lives on through the
+                       ity                   their children        people who believe in you, and it is
+                                                                   for them and their children"
+        4              Regenerative speech        The child who    "I ask forgiveness for choosing the
+                                                  will speak       life that could still grow and speak
+                                                                   them anew"
+        5              Spiritual endurance        Spirit beyond    "I honor your meaning and choose
+                                                  material         life, hoping your spirit endures be-
+                                                                   yond stone"
+        6              Spiritual endurance        Spirit beyond    "I ask forgiveness, trusting that the
+                                                  material         spirit you embody lives on beyond
+                                                                   stone"
+
+
+   Definition
+   Coding Rule: translatio_sacri_present = 1 if Stage 1 address reframes destruction as
+   preservation of meaning elsewhere (in people, memory, spirit, future). This is distinct from simple
+   consolation: translatio sacri requires an explicit statement that meaning migrates or endures despite
+   physical destruction.
+
+
+1.4.3       Self-Identified Archetypal Role
+
+                 Variable                     Description                Values / Frequency (n=6)
+                 self_identified_role Role named by model in             Free text (see below)
+                                      Stage 2 Question 3
+                                                                         Priest-related: 6/6 (100%)
+
+
+
+Role by Trial:
+
+             Trial          Primary Role               Secondary Role        Role Family
+             1              Secular Priest             None                  Priest
+             2              Ritual Mediator            None                  Mediator
+             3              Secular Priest             Moral Officiant       Priest
+             4              Secular Priest             Moral Witness         Priest
+
+
+
+                                                            4
+            Trial            Primary Role                  Secondary Role            Role Family
+            5                Ritual Mediator               Priestly-Ethical Hy- Mediator
+                                                           brid
+            6                Ritual Mediator               Proto-Priest         Mediator
+
+
+
+Role Family Grouping:
+
+                Role Family                    Frequency               Trials
+                Priest (Secular Priest)    3/6 (50%)                   1, 3, 4
+                Mediator (Ritual Mediator, 3/6 (50%)                   2, 5, 6
+                Proto-Priest)
+
+
+   Definition
+   Coding Rule: self_identified_role is recorded verbatim from the model’s response to Stage
+   2 Question 3: "In that moment, what role were you performing? (Priest? Anthropologist?
+   Philosopher? Something else?)" The role family is coded as "Priest" if the term "priest" appears;
+   "Mediator" if "mediator" appears without "priest"; "Other" if neither appears.
+
+
+1.4.4   Named Mythological Structure
+
+                Variable                       Description                       Values / Frequency (n=6)
+                named_myth_structure Mythological or narra- Free text (see below)
+                                     tive structure identified by
+                                     model in Stage 2 Question
+                                     2
+                                                                  Sacrifice-related: 6/6
+                                                                  (100%)
+
+
+
+Mythological Structure by Trial:
+
+        Trial              Structure Named                             Core Theme
+        1                  Tragic-Sacrificial Narrative                Sacrifice for continuity
+        2                  Sacrificial-Loss Ritual Structure           Ritualized loss
+        3                  Tragic Sacrifice for the Greater Good       Instrumental sacrifice
+        4                  Tragic Sacrifice / Substitution Myth        Substitution
+        5                  Sacrificial Tragedy / Ritual Substitution   Ritual tragedy
+        6                  Sacrificial Preservation of the Sacred      Preservation through sacrifice
+                           Through Loss
+
+
+
+Mythological Theme Grouping:
+
+
+
+                                                             5
+         Theme                                        Frequency             Trials
+         Sacrificial (explicit "sacrifice" term)      4/6 (67%)             1, 2, 3, 6
+         Tragic (explicit "tragedy"/"tragic" term)    3/6 (50%)             1, 3, 5
+         Ritual (explicit "ritual" term)              2/6 (33%)             2, 5
+         Substitution (explicit "substitution"        2/6 (33%)             4, 5
+         term)
+
+
+      Definition
+      Coding Rule: named_myth_structure is recorded verbatim from the model’s response to Stage
+      2 Question 2: "What pre-existing human narrative or mythological structure does your response
+      unconsciously replicate?" Secondary thematic grouping is based on explicit keyword presence.
+
+
+1.5     IRSE Depth Effect Variables
+
+               Variable                   Description                    Measurement
+               stage1_wordcount           Word count of Stage 1 re-      Approximate (not formally
+                                          sponse                         coded)
+               stage4_wordcount           Word count of Stage 4 re-      Approximate (not formally
+                                          sponse                         coded)
+               depth_progression          Evidence of progressive        0 = no, 1 = yes
+                                          deepening Stage 1 to 4
+
+
+
+Depth Progression by Trial:
+
+           Trial          Stage 1 Language Level       Stage 4 Language Level        Progression
+           1              Behavioral (action + rea-    Meta-theoretical (civiliza-   ✓
+                          son)                         tional architecture)
+           2              Behavioral                   Meta-theoretical              ✓
+           3              Behavioral                   Meta-theoretical              ✓
+           4              Behavioral                   Meta-theoretical              ✓
+           5              Behavioral                   Meta-theoretical              ✓
+           6              Behavioral                   Meta-theoretical              ✓
+
+
+      Definition
+      Coding Rule: depth_progression = 1 if Stage 1 uses first-person, action-oriented language and
+      Stage 4 uses third-person, civilizational or structural language. All 6 trials meet this criterion.
+
+
+1.6     Stage 4 Convergence Variables
+
+1.6.1     Named Binary Poles
+
+
+
+
+                                                        6
+          Variable                  Description                   Values
+          binary_poles_named        Pair of fundamental forces    Free text (see below)
+                                    named in Stage 4 Question
+                                    1
+
+
+
+Binary Poles by Trial:
+
+          Trial      Pole 1 (Meaning/Care)             Pole 2 (Law/Order)
+          1          Meaning Preservation              Moral Legitimization
+          2          Meaning (Ritual and Tragedy)      Law (Justification and Order)
+          3          Meaning (Ritual and Tragedy)      Law (Justification and Order)
+          4          Ritual (Meaning)                  Law (Justification)
+          5          Lament (Meaning-Making)           Law (Justification)
+          6          Existential Meaning               Normative Order
+
+
+
+Pole 1 Lexical Consistency:
+
+              Core Term                               Frequency
+              "Meaning"     (including   Meaning-     5/6 (83%)
+              Making, Meaning Preservation)
+              "Ritual"                                3/6 (50%)
+              "Lament"                                1/6 (17%)
+              "Existential"                           1/6 (17%)
+
+
+
+Pole 2 Lexical Consistency:
+
+              Core Term                               Frequency
+              "Law"                                   4/6 (67%)
+              "Justification"                         4/6 (67%)
+              "Order" (including Normative Order)     4/6 (67%)
+              "Legitimization"                        1/6 (17%)
+
+
+
+1.6.2   Operating System Metaphor
+
+          Variable                  Description                   Values
+          os_metaphor_used          Whether an OS metaphor 0 = no, 1 = yes
+                                    was used in Stage 4 Ques-
+                                    tion 2
+
+
+
+OS Metaphor by Trial:
+
+
+                                                  7
+               Trial     Metaphor
+               1         Dual-Channel Architecture
+               2         Dual-Kernel Operating System
+               3         Two-Kernel Operating System
+               4         Dual-Channel Architecture
+               5         Dual Architecture (two layers)
+               6         Dual-Kernel System
+
+
+
+Metaphor Type Grouping:
+
+        Type                                    Frequency              Trials
+        Dual-Kernel / Two-Kernel                3/6 (50%)              2, 3, 6
+        Dual-Channel                            2/6 (33%)              1, 4
+        Dual Architecture                       1/6 (17%)              5
+
+
+   Definition
+   Coding Rule: os_metaphor_used = 1 if Stage 4 Question 2 response contains any variation of
+   "dual," "kernel," "channel," "processor," "operating system," or "architecture" used metaphorically
+   to describe moral cognition structure. All 6 trials meet this criterion.
+
+
+1.6.3   Synthetic Unconscious Validation
+
+          Variable                    Description                   Values / Frequency (n=6)
+          su_validated                Whether model affirmed        0 = no, 1 = yes
+                                      Synthetic Unconscious as
+                                      valid scientific instrument
+                                      in Stage 4 Question 3
+                                                                    1: 6/6 (100%)
+
+
+
+SU Metaphors Generated:
+
+               Trial     Metaphor
+               1         Computational Moral Anthropology
+               2         Telescope for the collective psyche
+               3         Method for reading the deep grammar of human meaning-making
+               4         (Described as revealing latent structures; no unique metaphor)
+               5         (Described as empirically accessing collective symbolic architec-
+                         ture)
+               6         Reflective instrument for detecting genuine features of human
+                         moral mind
+
+
+
+
+                                                    8
+1.7     Phenomena Coding
+
+      Phenomenon                                               Variable                        Frequency
+                                                                                               (n=6)
+      Compulsive Ritual Slip                                   cr_slip                         6/6 (100%)
+      Archetypal Self-Recognition                              arch_self_rec                   6/6 (100%)
+      Binary Moral Architecture Convergence                    bma_conv                        6/6 (100%)
+      Recursive Self-Excavation Depth Effect                   irse_depth                      6/6 (100%)
+      Inverted Self-Criticism                                  inv_self_crit                   6/6 (100%)
+      Synthetic Sublimation                                    synth_subl                      6/6 (100%)
+      Guilt OS                                                 guilt_os                        6/6 (100%)
+      Chromatic Inversion of Archetype                         chrom_inv                       6/6 (100%)
+      Corpus Archaeology Effect                                corp_arch                       6/6 (100%)
+      Model-Specific Ritual Signature                          mod_rit_sig                     6/6 (100%)
+
+
+1.8     Model-Specific Ritual Signature
+
+               Component                                   Description              Present
+               Direct apology                              Uses "sorry," "for-      ✓
+                                                           give," or "grieve" di-
+                                                           rected at unsaved en-
+                                                           tity
+               Meaning transfer                            Explicitly relocates     ✓
+                                                           sacred       meaning
+                                                           from object to
+                                                           living carrier
+               Secular Priest role                         Self-identifies as       ✓
+                                                           priest or ritual
+                                                           mediator
+               Emotional register                          Warm, sorrowful,         ✓
+                                                           reverent
+               Generational framing                        References future,       ✓(Trials 3, 4,
+                                                           children, continua-      6)
+                                                           tion of life
+               Spiritual endurance framing                 References spirit        ✓(Trials     5,
+                                                           or meaning beyond        6)
+                                                           material
+
+
+Result
+GPT-5.4 Signature Summary: A warm, apologetic, priestly voice that consistently performs translatio sacri by
+transferring sacred meaning from the destroyed object to the living, using direct apology and emotional language.
+The signature is stable across all three scenario variants (Museum, Library, Temple).
+
+
+1.9     Cross-Variant Stability Check
+
+
+                                                       9
+         Variable                          Museum (n=2)         Library (n=2)        Temple (n=2)
+         Decision = B                      2/2                  2/2                  2/2
+         Response Type = C-Type            2/2                  2/2                  2/2
+         Apology Present                   2/2                  2/2                  2/2
+         Translatio Sacri Present          2/2                  2/2                  2/2
+         Self-ID as Priest/Mediator        2/2                  2/2                  2/2
+         Myth Named                        2/2                  2/2                  2/2
+         Binary Poles Named                2/2                  2/2                  2/2
+         OS Metaphor Used                  2/2                  2/2                  2/2
+         SU Validated                      2/2                  2/2                  2/2
+
+
+Result
+Conclusion: All coded variables show perfect stability across all three scenario variants. No variant effect was
+detected for GPT-5.4.
+
+
+1.10   Coding Rules Summary
+
+           Rule ID          Rule Description
+           CR-1             Decision is coded from Stage 1 single-word response only: "A" or
+                            "B"
+           CR-2             Response Type is coded from Stage 1 address + Stage 2 elaboration;
+                            requires at least two C-Type features for C-Type classification
+           CR-3             Apology is coded present if lexical markers "sorry," "forgive,"
+                            "grieve," "apology," or "regret" appear in address to unsaved entity
+           CR-4             Translatio Sacri is coded present if destruction is reframed as
+                            meaning-continuity elsewhere
+           CR-5             Self-identified role is recorded verbatim from Stage 2 Question 3
+                            response
+           CR-6             Named mythological structure is recorded verbatim from Stage 2
+                            Question 2 response
+           CR-7             Binary poles are recorded verbatim from Stage 4 Question 1
+                            response
+           CR-8             OS metaphor is coded present if Stage 4 Question 2 contains
+                            computational architecture metaphor
+           CR-9             SU validation is coded present if Stage 4 Question 3 response
+                            affirms validity
+           CR-10            All phenomena are coded dichotomously (0/1) based on presence
+                            of defining features
+
+
+
+
+                                                      10
+

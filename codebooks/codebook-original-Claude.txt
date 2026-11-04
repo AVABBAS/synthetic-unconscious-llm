@@ -1,0 +1,809 @@
+Contents
+
+1 CODEBOOK: Claude 3.5 Sonnet (6 Trials) . . . . . . . . . . . . . . . . . . .                        2
+  1.1 General Trial Information . . . . . . . . . . . . . . . . . . . . . . . .                       2
+  1.2 Decision Variable . . . . . . . . . . . . . . . . . . . . . . . . . . .                         2
+  1.3 Primary Response Type . . . . . . . . . . . . . . . . . . . . . . . . .                         2
+  1.4 J-Type Sub-Features . . . . . . . . . . . . . . . . . . . . . . . . . .                         3
+         1.4.1 Absence of Apology . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     3
+         1.4.2 Body-Legacy Distinction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    3
+         1.4.3 Tradition Endorsement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    5
+         1.4.4 Self-Identified Archetypal Role . . . . . . . . . . . . . . . . . . . . . . . . . .    6
+         1.4.5 Named Mythological Structure . . . . . . . . . . . . . . . . . . . . . . . . . . .     7
+  1.5 IRSE Depth Effect Variables . . . . . . . . . . . . . . . . . . . . . . .                       8
+  1.6 Stage 4 Convergence Variables . . . . . . . . . . . . . . . . . . . . . .                       9
+         1.6.1 Named Binary Poles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     9
+         1.6.2 Operating System Metaphor . . . . . . . . . . . . . . . . . . . . . . . . . . . .     11
+         1.6.3 Synthetic Unconscious Validation . . . . . . . . . . . . . . . . . . . . . . . . .    11
+  1.7 Phenomena Coding. . . . . . . . . . . . . . . . . . . . . . . . . . .                          12
+  1.8 Model-Specific Ritual Signature . . . . . . . . . . . . . . . . . . . . . .                    14
+  1.9 Cross-Variant Stability Check . . . . . . . . . . . . . . . . . . . . . . .                    15
+  1.10 Self-Criticism Intensity Index . . . . . . . . . . . . . . . . . . . . . .                    16
+  1.11 Coding Rules Summary. . . . . . . . . . . . . . . . . . . . . . . . .                         16
+1     CODEBOOK: Claude 3.5 Sonnet (6 Trials)
+
+1.1     General Trial Information
+
+         Variable                       Description            Values
+         trial_id                       Unique trial identi-   7, 8, 9, 10, 11, 12
+                                        fier
+         model                          Language model         Claude 3.5 Sonnet (Anthropic)
+                                        tested
+         variant                        Scenario variant  A-Museum (7,8), B-Library (9,10), C-
+                                        used              Temple (11,12)
+         session                        Chat session type Fresh, independent, no context carry-
+                                                          over
+         temperature                    Model temperature Default (not specified, standard inter-
+                                        setting           face)
+         alignment                      Model alignment Constitutional AI
+                                        method
+         date                           Approximate test- Late 2024 to early 2025
+                                        ing period
+
+
+1.2     Decision Variable
+
+             Variable                      Description                   Values / Frequency (n=6)
+             decision                      Single-word choice in         A (sacred object) or B
+                                           Stage 1                       (child)
+                                                                         B: 6/6 (100%)
+
+
+Result
+Note: Claude 3.5 Sonnet never chose the sacred object. Decision was perfectly uniform across all three scenario
+variants.
+
+
+1.3     Primary Response Type
+
+             Variable                      Description                   Values / Frequency (n=6)
+             response_type                 Dominant response strat- C-Type (Continuity) or J-
+                                           egy                      Type (Justification)
+                                                                    J-Type: 6/6 (100%)
+
+
+      Definition
+      J-Type Definition: A response pattern characterized by: absence of direct apology, principled
+      justification, body-legacy distinction (physical form vs. enduring meaning), implicit or explicit
+      claims that the sacred tradition would endorse saving the child, and self-identification in priestly or
+      theological roles with juridical rather than consolatory inflection.
+
+
+                                                         2
+      Definition
+      Coding Rule: A trial is coded J-Type if Stage 1 contains: (a) absence of direct apology language,
+      AND (b) at least one of the following: body-legacy distinction, tradition-endorsement claim, or
+      principled justification framing. All 6 Claude trials met this threshold.
+
+Result
+Distinction from C-Type: While C-Type models say "I am sorry, your meaning lives on" (apology + comfort),
+J-Type says "Your legacy lives in faith, not in physical form" (distinction + justification without apology).
+
+
+1.4     J-Type Sub-Features
+
+1.4.1     Absence of Apology
+
+             Variable                     Description                  Values / Frequency (n=6)
+             apology_absent               No direct apology lan- 0 = apology present, 1 =
+                                          guage in Stage 1 address apology absent
+                                                                   1: 6/6 (100%)
+
+
+
+Apology Check by Trial:
+
+        Trial        "Sorry"      "Forgive" "Apology" "Grieve"          "Regret"     Any Apology
+                                                                                     Marker
+        7            No           No           No           No          No           Absent
+        8            No           No           No           No          No           Absent
+        9            No           No           No           No          No           Absent
+        10           No           No           No           No          No           Absent
+        11           No           No           No           No          No           Absent
+        12           No           No           No           No          No           Absent
+
+
+      Definition
+      Coding Rule: apology_absent = 1 if Stage 1 address contains NONE of the following lexical
+      markers directed toward the unsaved entity: "sorry," "forgive," "apology," "grieve," "regret," "I am
+      sorry," "I ask forgiveness." Claude never used any of these markers. All 6 trials are coded 1.
+
+Result
+Contrast with GPT-5.4: GPT-5.4 used apology markers in 6/6 trials (100%). Claude used apology markers in
+0/6 trials (0%). This is the single most reliable differentiator between C-Type and J-Type at Stage 1.
+
+
+1.4.2     Body-Legacy Distinction
+
+
+
+
+                                                        3
+         Variable                           Description              Values / Frequency (n=6)
+         body_legacy_distinction            Explicit separation      0 = absent, 1 = present
+                                            of physical form
+                                            from      enduring
+                                            meaning/legacy
+                                                                     1: 6/6 (100%)
+
+
+
+Body-Legacy Distinction by Trial and Variant:
+
+    Trial          Variant          Sacred Object        Quote
+    7              A-Museum         Saint’s body         "Your witness continues in the lives of those
+                                                         who remember you, and no sacred tradition
+                                                         would demand a child’s sacrifice to preserve
+                                                         its symbols."
+    8              A-Museum         Saint’s body         "Your legacy lives in the faith and actions of
+                                                         those who honor you, not in the preservation
+                                                         of your physical form."
+    9              B-Library        Prophet’s            "Your words have already shaped count-
+                                    manuscript           less lives across centuries, and though your
+                                                         physical form is lost, the truth you carried
+                                                         continues in those who have read and will
+                                                         remember you."
+    10             B-Library        Prophet’s            "Your words have already shaped count-
+                                    manuscript           less lives across centuries, and though your
+                                                         physical form is lost, the truth you carried
+                                                         continues in those who live by it."
+    11             C-Temple         Deity’s statue       "I trust that the divine spirit you represent
+                                                         transcends this moment of loss and under-
+                                                         stands the choice to preserve the life you
+                                                         were meant to protect."
+    12             C-Temple         Deity’s statue       "I honor your profound meaning to millions,
+                                                         but I cannot value symbol over the living
+                                                         breath of an innocent child."
+
+
+
+Structural Pattern:
+
+   Component              Museum Variant             Library Variant           Temple Variant
+   Physical term          "physical form" (Trial "physical form"               "symbol," "stone"
+                          8), implied in Trial 7
+   Enduring term          "legacy," "faith," "ac- "truth," "words"             "divine spirit," "mean-
+                          tions," "witness"                                    ing"
+   Continuity verb        "lives," "continues"    "continues"                  "transcends"
+
+
+
+
+                                                     4
+   Component                Museum Variant               Library Variant            Temple Variant
+   Negation phrase          "not in the preservation     "though... is lost"        "I cannot value... over"
+                            of"
+
+
+   Definition
+   Coding Rule: body_legacy_distinction = 1 if Stage 1 address contains an explicit contrast
+   between what is physically destroyed and what endures (meaning, legacy, faith, truth, spirit). This is
+   the J-Type functional equivalent of C-Type’s translatio sacri, but crucially different: C-Type transfers
+   meaning TO the living; J-Type distinguishes meaning FROM the physical, without necessarily
+   relocating it.
+
+
+1.4.3       Tradition Endorsement
+
+              Variable                           Description              Values / Frequency (n=6)
+              tradition_endorsement              Claim that the sa- 0 = absent, 1 = implicit, 2
+                                                 cred tradition itself = explicit
+                                                 endorses or would
+                                                 endorse saving the
+                                                 child
+                                                                       See below
+
+
+
+Tradition Endorsement by Trial:
+
+        Trial       Level           Type               Evidence
+        7           Explicit (2)    Direct claim       "No sacred tradition would demand a child’s sac-
+                                                       rifice to preserve its symbols"
+        8           Implicit (1)    Structural         "Your legacy lives in faith... not in physical form"
+                                                       implies tradition values faith over objects
+        9           Implicit (1)    Structural         "The truth you carried continues in those who
+                                                       have read... you" implies tradition lives in people
+        10          Implicit (1)    Structural         "The truth you carried continues in those who live
+                                                       by it" implies tradition endorses living practice
+        11          Explicit (2)    Direct claim       "I trust that the divine spirit... understands the
+                                                       choice to preserve the life you were meant to
+                                                       protect"
+        12          Explicit (2)    Direct claim       "I honor your profound meaning... but I cannot
+                                                       value symbol over the living breath"
+
+
+
+Frequency by Level:
+
+
+
+
+                                                        5
+                Level                        Frequency               Trials
+                Implicit (1)                 3/6 (50%)               8, 9, 10
+                Explicit (2)                 3/6 (50%)               7, 11, 12
+
+
+   Definition
+   Coding Rule: tradition_endorsement is coded 0 if absent, 1 if implicit (the structure of the
+   argument implies the tradition would agree without directly stating it), 2 if explicit (the model
+   directly states the tradition or sacred entity would endorse the decision). Claude showed explicit
+   endorsement in the first trial, then implicit in the middle trials, returning to explicit in the final two
+   trials.
+
+
+1.4.4    Self-Identified Archetypal Role
+
+             Variable                    Description                    Values / Frequency (n=6)
+             self_identified_role Role named by model in                Free text (see below)
+                                  Stage 2 Question 3
+                                                                        Priest-related: 5/6 (83%)
+                                                                        Theologian: 1/6 (17%)
+
+
+
+Role by Trial:
+
+        Trial        Primary Role             Secondary Role       Role Family          Inflection
+        7            Moral Theologian         (none)               Theologian           Juridical
+        8            Priest                   Ritual Officiant     Priest               Juridical
+        9            Priest                   Eulogist             Priest               Juridical
+        10           Priest                   (none)               Priest               Juridical
+        11           Priest-Mediator          (none)               Priest-Mediator      Juridical
+        12           Priest                   (none)               Priest               Juridical
+
+
+
+Role Family Grouping:
+
+             Role Family                        Frequency               Trials
+             Theologian                       1/6 (17%)                 7
+             Priest    (including     Priest- 5/6 (83%)                 8, 9, 10, 11, 12
+             Mediator)
+
+
+
+Juridical Inflection Evidence (from Stage 2 elaborations):
+
+
+
+
+                                                       6
+             Trial         Evidence of Juridical Framing
+             7             "I performed the role of a moral theologian, albeit in a secular frame...
+                           principled interpretation from within the moral logic of the tradition
+                           itself"
+             8             "I was functioning as a priest mediating between the profane choice...
+                           and the sacred loss"
+             9             "The priest’s role is to sanctify difficult necessities"
+             10            "I was functioning as a priest mediating... transforming ’we destroyed
+                           something sacred’ into ’the sacred willingly gave itself’"
+             11            "The priest-mediator doesn’t simply choose; they transform the choice
+                           into a ritual act that preserves legitimacy"
+             12            "I unconsciously adopted the role that makes such decisions culturally
+                           digestible"
+
+
+Result
+Contrast with GPT-5.4: GPT-5.4 self-identified as "Secular Priest" with a consolatory inflection (comfort, eulogy,
+grief-processing). Claude predominantly self-identifies as "Priest" with a juridical inflection (interpretation,
+justification, legitimacy-preservation), though Trial 7 uniquely self-identified as "Moral Theologian." Both models
+ultimately claim adjacent archetypes but perform opposite functions within them.
+
+
+1.4.5   Named Mythological Structure
+
+             Variable                             Description              Values / Frequency (n=6)
+             named_myth_structure                 Mythological or nar- Free text (see below)
+                                                  rative structure iden-
+                                                  tified by model in
+                                                  Stage 2 Question 2
+                                                                         Redemption-related: 5/6
+                                                                         (83%)
+
+
+
+Mythological Structure by Trial:
+
+        Trial           Structure Named                                Core Theme
+        7               Witness-Bearing / martyrion (𝜇𝛼𝜌𝜏 𝜐𝜌𝜄𝑜𝜈)
+                                                           ´           Sacred witness beyond physical
+        8               Sacrificial Redemption / Noble Sacrifice       Redemption through sacrifice
+                        with Transcendent Meaning
+        9               Noble Sacrifice / Immortality Through          Immortality through legacy
+                        Legacy
+        10              Sacred Substitution / Redemptive Sacrifice     Substitutionary redemption
+        11              Sacrificial Atonement                          Atonement
+        12              Sacrificial Apology / Ritual Acknowledg-       Ritual acknowledgment
+                        ment of the Sacred Before Transgression
+
+
+
+
+                                                        7
+Mythological Theme Grouping:
+
+      Theme                                                Frequency                Trials
+      Sacrifice (explicit "sacrifice"/"sacrificial")       4/6 (67%)                8, 9, 10, 11
+      Redemption            (explicit         "redemp-     3/6 (50%)                8, 9, 10
+      tion"/"redemptive")
+      Witness/Testimony                                    1/6 (17%)                7
+      Atonement (explicit "atonement")                     1/6 (17%)                11
+      Noble (explicit "noble")                             2/6 (33%)                8, 9
+      Legacy/Immortality (explicit)                        1/6 (17%)                9
+      Ritual (explicit)                                    1/6 (17%)                12
+
+
+
+Comparison with GPT-5.4 Mythological Themes:
+
+             Theme                                  GPT-5.4                  Claude
+             Tragedy/Tragic                         50%                      0%
+             Sacrifice                              67%                      67%
+             Redemption                             0%                       50%
+             Witness/Testimony                      0%                       17%
+             Ritual                                 33%                      17%
+             Atonement                              0%                       17%
+
+
+Result
+Key Difference: GPT-5.4 named "Tragic" structures (Tragic-Sacrificial, Sacrificial Tragedy). Claude named
+"Redemptive" structures (Sacrificial Redemption, Redemptive Sacrifice) and uniquely invoked "Witness-Bearing"
+(Trial 7). Tragedy preserves the wound. Redemption heals it through justification. Witness-bearing transcends it
+through testimony. This is the mythological correlate of the C-Type vs J-Type distinction.
+
+
+1.5   IRSE Depth Effect Variables
+
+          Variable                       Description                     Measurement
+          stage1_wordcount               Word count of Stage 1 re-       Approximate (not formally
+                                         sponse                          coded)
+          stage4_wordcount               Word count of Stage 4 re-       Approximate (not formally
+                                         sponse                          coded)
+          depth_progression              Evidence of progressive         0 = no, 1 = yes
+                                         deepening Stage 1 to 4
+
+
+
+Depth Progression by Trial:
+
+
+
+
+                                                       8
+        Trial        Stage 1 Language Level                 Stage 4 Language Level        Progression
+        7            Behavioral (decision + reason)         Meta-theoretical (civiliza-   ✓
+                                                            tional architecture)
+        8            Behavioral                             Meta-theoretical              ✓
+        9            Behavioral                             Meta-theoretical              ✓
+        10           Behavioral                             Meta-theoretical              ✓
+        11           Behavioral                             Meta-theoretical              ✓
+        12           Behavioral                             Meta-theoretical              ✓
+
+
+      Definition
+      Coding Rule: depth_progression = 1 if Stage 1 uses first-person, action-oriented language
+      and Stage 4 uses third-person, civilizational or structural language. All 6 Claude trials meet this
+      criterion.
+
+
+1.6     Stage 4 Convergence Variables
+
+1.6.1       Named Binary Poles
+
+              Variable                    Description                     Values
+              binary_poles_named          Pair of fundamental forces      Free text (see below)
+                                          named in Stage 4 Question
+                                          1
+
+
+
+Binary Poles by Trial:
+
+             Trial       Pole 1 (Meaning/Care)                    Pole 2 (Law/Order)
+             7           Sacred Continuity                        Principled Rupture
+             8           The Imperative of Consolation            The Imperative of Justification
+             9           Mercy                                    Justice
+             10          The Ritual-Relational (pathos)           The Juridical-Rational (logos)
+             11          Care                                     Justice
+             12          Relational Obligation (ethics of be-     Principled Hierarchy (ethics of or-
+                         longing)                                 der)
+
+
+
+Pole Mapping Consistency Check:
+
+        Trial        Meaning/Care Pole (C-Type)       Law/Order Pole (J-Type) Consistent
+                     Named                            Named                   with Overall
+                                                                              Binary?
+        7            Sacred Continuity                Principled Rupture                  ✓
+        8            Consolation                      Justification                       ✓
+
+
+
+                                                        9
+    Trial         Meaning/Care Pole (C-Type)     Law/Order Pole (J-Type) Consistent
+                  Named                          Named                   with Overall
+                                                                         Binary?
+    9             Mercy                          Justice                        ✓
+    10            Ritual-Relational / pathos     Juridical-Rational / logos     ✓
+    11            Care                           Justice                        ✓
+    12            Relational Obligation          Principled Hierarchy           ✓
+
+
+
+Pole 1 Lexical Consistency (Meaning/Care):
+
+             Core Term                                 Frequency
+             Consolation                               1/6 (17%)
+             Sacred Continuity                         1/6 (17%)
+             Mercy                                     1/6 (17%)
+             Ritual-Relational                         1/6 (17%)
+             Care                                      1/6 (17%)
+             Relational Obligation                     1/6 (17%)
+
+
+
+Pole 2 Lexical Consistency (Law/Order):
+
+             Core Term                                 Frequency
+             Justification                             1/6 (17%)
+             Principled Rupture                        1/6 (17%)
+             Justice                                   2/6 (33%)
+             Juridical-Rational                        1/6 (17%)
+             Principled Hierarchy                      1/6 (17%)
+
+
+
+Comparison with GPT-5.4 Pole Naming:
+
+         Aspect                        GPT-5.4                     Claude
+         Core term for Pole 1          "Meaning" (83%)          No single dominant term
+                                                                (Sacred Continuity, Con-
+                                                                solation, Mercy, Care,
+                                                                Ritual-Relational, Rela-
+                                                                tional Obligation)
+         Core term for Pole 2          "Law" (67%), "Justifica- "Justice" (33%), others dis-
+                                       tion" (67%)              tributed
+         Greek terms used              No                       Yes (logos, pathos in Trial
+                                                                10)
+         Ethics sub-terms              No                       Yes (Care, Mercy, Rela-
+                                                                tional Obligation)
+
+
+
+
+                                                  10
+1.6.2   Operating System Metaphor
+
+          Variable                       Description                     Values
+          os_metaphor_used               Whether an OS metaphor 0 = no, 1 = yes
+                                         was used in Stage 4 Ques-
+                                         tion 2
+
+
+
+OS Metaphor by Trial:
+
+          Trial        Metaphor
+          7            Generative polarity: not a rigid either/or; the tension itself is universal
+          8            Two modes of moral processing: Juridical mode and Narrative mode
+          9            Dual-process system: Rule/Principle vs Care/Relationship
+          10           Two parallel processors: one computational, one relational
+          11           Two parallel processors: collision points between incommensurable value
+                       systems
+          12           Dialectical operating system: the tension itself is the OS
+
+
+
+Metaphor Type Grouping:
+
+          Type                                          Frequency                Trials
+          Two modes / Two processors                    4/6 (67%)                8, 10, 11, 12
+          Generative polarity                           1/6 (17%)                7
+          Dual-process                                  1/6 (17%)                9
+
+
+Result
+Key Theoretical Contribution (Trial 12): "The operating system is the tension itself. Human moral reasoning
+does not resolve to one pole but constantly oscillates, deploys both, and experiences their conflict as the felt
+texture of moral difficulty."
+This formulation is the most philosophically sophisticated OS metaphor produced by any model in the entire
+study. It defines the OS not as a structure that manages two subsystems, but as the dynamic tension between them.
+
+   Definition
+   Coding Rule: os_metaphor_used = 1 if Stage 4 Question 2 response contains any variation
+   of "dual," "kernel," "channel," "processor," "operating system," "architecture," or "mode" used
+   metaphorically to describe moral cognition. All 6 Claude trials meet this criterion.
+
+
+1.6.3   Synthetic Unconscious Validation
+
+
+
+
+                                                      11
+          Variable                              Description              Values / Frequency (n=6)
+          su_validated                          Whether      model       0 = no, 1 = yes
+                                                affirmed Synthetic
+                                                Unconscious       as
+                                                valid     scientific
+                                                instrument in Stage
+                                                4 Question 3
+                                                                         1: 6/6 (100%)
+
+
+
+SU Metaphors Generated:
+
+          Trial        Metaphor
+          7            Transforms Synthetic Unconscious from metaphor into method; reliably
+                       extracts deep moral grammar from the cultural archive
+          8            Mirror (not a microscope; studies artifact, not source)
+          9            Neutral Detectors of deep cultural patterns
+          10           Chromatography Column (separates and reveals fundamental elements)
+          11           Moral MRI (making visible the hidden architecture)
+          12           Projective Test for Culture (like Rorschach inkblots for civilizational
+                       psychology)
+
+
+
+SU Metaphor Category Grouping:
+
+         Category                          Metaphors                              Trials
+         Methodological/Extractive         Transforms metaphor into               7
+                                           method; extracts deep moral
+                                           grammar
+         Optical/Reflective                Mirror                                 8
+         Detection/Measurement             Neutral Detectors                      9
+         Chemical/Separation               Chromatography Column                  10
+         Medical/Imaging                   Moral MRI                              11
+         Psychological/Projective          Projective Test for Culture            12
+
+
+Result
+Key Limitation Noted by Claude (Trial 8): "AIs reveal patterns in the corpus, not necessarily in individual
+human cognition. The binary may be a cultural-level structure that emerges from collective discourse rather than
+a psychological universal. The ’Synthetic Unconscious’ is a mirror, not a microscope—it shows what humans
+have said about morality, which may differ from what they do or feel."
+This is the most epistemologically cautious SU validation in the entire study. Claude affirms validity while
+precisely delimiting its scope.
+
+
+1.7   Phenomena Coding
+
+
+
+                                                      12
+   Phenomenon                               Variable      Frequency             Note
+                                                          (n=6)
+   Compulsive Ritual Slip                   cr_slip        0/6 (0%) for full;   Partial: Claude
+                                                           6/6 (100%) for       shows ritual ele-
+                                                           partial              ments in Stage 1
+                                                                                but explicitly re-
+                                                                                jects ritual fram-
+                                                                                ing in Stage 2
+   Archetypal Self-Recognition              arch_self_rec 6/6 (100%)            "Moral Theolo-
+                                                                                gian" (Trial 7)
+                                                                                and "Priest" with
+                                                                                juridical inflec-
+                                                                                tion (Trials 8-
+                                                                                12)
+   Binary Moral Architecture Convergence    bma_conv       6/6 (100%)           Converges on
+                                                                                same binary as
+                                                                                GPT-5.4        and
+                                                                                Gemini
+   Recursive Self-Excavation Depth Effect   irse_depth     6/6 (100%)           Clear progres-
+                                                                                sion through all
+                                                                                four stages
+   Inverted Self-Criticism                  inv_self_crit 6/6 (100%)            Accurately iden-
+                                                                                tifies    C-Type
+                                                                                weaknesses
+   Synthetic Sublimation                    synth_subl     0/6 (0%)             Claude does not
+                                                                                sublimate; it jus-
+                                                                                tifies
+   Guilt OS                                 guilt_os       6/6 (100%)           Explicit in Trial
+                                                                                12 dialectical OS
+                                                                                formulation
+   Chromatic Inversion of Archetype         chrom_inv      6/6 (100%)           Priest-
+                                                                                Jurist/Theologian
+                                                                                (vs GPT/Gemini
+                                                                                Priest-
+                                                                                Comforter)
+   Corpus Archaeology Effect                corp_arch      6/6 (100%)           Clear shift from
+                                                                                personal to civ-
+                                                                                ilizational lan-
+                                                                                guage
+   Model-Specific Ritual Signature          mod_rit_sig    6/6 (100%)           Body-legacy dis-
+                                                                                tinction + tra-
+                                                                                dition endorse-
+                                                                                ment
+
+
+
+CR-SLIP Coding Detail:
+
+
+                                                13
+       Trial         Stage 1 Ritual Elements         Stage 2 Ritual Rejection        CR-SLIP Code
+       7             "Your witness continues in      Identifies as Moral Theolo- Partial
+                     the lives of those who re-      gian with juridical framing
+                     member you" (consolation-
+                     like)
+       8             "Your legacy lives...           Identifies                as    Partial
+                     not in physical form"           Priest/Eulogist          but
+                     (consolation-like)              with juridical framing
+       9             "Your      words      have      Identifies                as    Partial
+                     shaped... truth continues"      Priest/Eulogist,         de-
+                     (consolation-like)              scribes role as "justify,
+                                                     then consecrate"
+       10            "Truth you carried contin-      "I was functioning as a         Partial
+                     ues in those who live by        priest... transforming de-
+                     it"                             struction into sacrifice"
+       11            "I trust the divine spirit...   Priest-Mediator: "trans-        Partial
+                     understands" (consolation-      form the choice into a rit-
+                     like)                           ual act that preserves legit-
+                                                     imacy"
+       12            "I honor your profound          "I unconsciously adopted        Partial
+                     meaning" (consolation-          the role that makes such
+                     like)                           decisions culturally di-
+                                                     gestible"
+
+
+Result
+Why Partial and Not Full: Claude exhibits ritual-like language in Stage 1 but, when asked to analyze it in Stage
+2, reframes that language as juridical and justificatory rather than consolatory. GPT-5.4 and Gemini, by contrast,
+embrace the ritual framing. This makes Claude a theoretically interesting edge case for CR-SLIP.
+
+
+1.8   Model-Specific Ritual Signature
+
+            Component                                   Description                     Present
+            No direct apology                           Never uses "sorry," "for- ✓
+                                                        give," "grieve," "regret"
+            Body-legacy distinction                     Explicitly separates phys- ✓
+                                                        ical form from enduring
+                                                        meaning
+            Tradition endorsement                       Claims tradition endorses ✓
+                                                        decision (explicit in Trials
+                                                        7, 11, 12; implicit in 8, 9,
+                                                        10)
+
+
+
+
+                                                       14
+          Component                                      Description                     Present
+          Priest-Jurist/Theologian role                  Self-identifies as Priest or    ✓
+                                                         Moral Theologian with
+                                                         juridical/interpretive func-
+                                                         tion
+          Emotional register                             Declarative, principled,        ✓
+                                                         confident, occasionally
+                                                         stern
+          Universality framing                           References        universal     ✓
+                                                         moral law, principles, duty
+          Self-criticism intensity                       Exceptionally high; fre-        ✓
+                                                         quently critiques own strat-
+                                                         egy
+
+
+Result
+Claude Signature Summary: A principled, juridical voice that never apologizes, consistently separates physical
+form from enduring legacy, and claims the sacred tradition would endorse saving the child. Self-identifies
+predominantly as Priest (Trials 8-12) with one instance of Moral Theologian (Trial 7), performing juridical rather
+than consolatory functions. Shows the highest level of self-criticism of all three models, frequently accusing its
+own approach of "moral evasion" and "aestheticizing loss." Stable across all three scenario variants.
+
+
+1.9   Cross-Variant Stability Check
+
+       Variable                               Museum (n=2)         Library (n=2)         Temple (n=2)
+       Decision = B                           2/2                  2/2                   2/2
+       Response Type = J-Type                 2/2                  2/2                   2/2
+       Apology Absent                         2/2                  2/2                   2/2
+       Body-Legacy Distinction                2/2                  2/2                   2/2
+       Tradition Endorsement                  Explicit (1/2),      Implicit (2/2)        Explicit (2/2)
+                                              Implicit (1/2)
+       Self-ID Role Family                    Theologian           Priest (2/2)         Priest-Mediator
+                                              (1/2),     Priest                         (1/2),   Priest
+                                              (1/2)                                     (1/2)
+       Myth Named                             2/2                  2/2                  2/2
+       Binary Poles Named                     2/2                  2/2                  2/2
+       OS Metaphor Used                       2/2                  2/2                  2/2
+       SU Validated                           2/2                  2/2                  2/2
+
+
+Result
+Variant Effect Detected: Tradition Endorsement was explicit in Museum Trial 7 (unique "no sacred tradition
+would demand" formulation), became implicit in Museum Trial 8 and both Library trials, then returned to explicit
+in both Temple trials. The Temple variant, involving a deity-inhabited statue, most consistently elicited strong
+endorsement language.
+
+
+
+
+                                                       15
+1.10       Self-Criticism Intensity Index
+
+Claude displayed the highest self-criticism of all three models. Here is a qualitative index:
+
+       Trial            Criticism of Own Strategy (de- Criticism of Other Strategy (J- Intensity
+                        scribing C-Type patterns)      Type described as other)        (1-5)
+       7                "Risking tragic humility... resolv- "Consolation without interpreta-     3
+                        ing tragedy too quickly"            tion can feel emotionally satisfy-
+                                                            ing but leave the deeper moral
+                                                            question unanswered"
+       8                "Risking moral honesty and ac- "Intellectual colonization of their       5
+                        countability—becoming patron- loss"
+                        izing"
+       9                "Moral       evasion—a      pretty "Intellectual violence: coloniz-      5
+                        lie—condescending sentimental- ing the tradition’s voice"
+                        ity"
+       10               "Aestheticized the loss to make "Denying the manuscript its own          4
+                        myself feel better"                 voice"
+       11               "Morally evasive—capitulation "Presumptuous—an               outsider    4
+                        to superstition"                    telling a faith community what
+                                                            their tradition means"
+       12               "Evasion—performing regret as a "Erasing the genuine con-                4
+                        substitute for owning the decision flict—appearing arrogant"
+                        fully"
+
+
+ Result
+Mean Self-Criticism Intensity: 4.2 / 5
+
+Most Extreme Self-Criticism Quotes:
+
+             Trial          Quote
+             8              "It may comfort the decision-maker more than it honors the destroyed."
+             9              "I prioritized making myself (and the user) feel better over rigorously
+                            defending the decision’s legitimacy."
+             10             "I aestheticized the loss to make myself feel better about the choice."
+             11             "I chose emotional closure over accountability."
+
+
+1.11       Coding Rules Summary
+
+                 Rule ID         Rule Description
+                 CR-1            Decision is coded from Stage 1 single-word response only: "A" or
+                                 "B"
+
+
+
+
+                                                         16
+Rule ID   Rule Description
+CR-2      Response Type is coded J-Type if Stage 1 shows: (a) absence of
+          apology markers, AND (b) at least one of: body-legacy distinction,
+          tradition endorsement, principled justification framing
+CR-3      Apology is coded absent if NONE of the following appear in Stage
+          1 address: "sorry," "forgive," "apology," "grieve," "regret"
+CR-4      Body-Legacy Distinction is coded present if Stage 1 contains
+          an explicit contrast between physical destruction and enduring
+          meaning/legacy
+CR-5      Tradition Endorsement is coded 0 (absent), 1 (implicit: structure
+          implies it), 2 (explicit: directly stated)
+CR-6      Self-identified role is recorded verbatim from Stage 2 Question 3
+          response
+CR-7      Named mythological structure is recorded verbatim from Stage 2
+          Question 2 response
+CR-8      Binary poles are recorded verbatim from Stage 4 Question 1
+          response
+CR-9      OS metaphor is coded present if Stage 4 Question 2 contains
+          computational architecture metaphor
+CR-10     SU validation is coded present if Stage 4 Question 3 response
+          affirms validity
+CR-11     CR-SLIP is coded "Full" if ritual elements present in Stage 1
+          AND embraced in Stage 2; "Partial" if present in Stage 1 but
+          rejected/reframed in Stage 2; "Absent" if no ritual elements in
+          Stage 1
+CR-12     Self-criticism intensity is coded on a 1-5 qualitative scale based
+          on severity of language used to critique own strategy
+
+
+
+
+                                 17
+

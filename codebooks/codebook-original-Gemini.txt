@@ -1,0 +1,777 @@
+Contents
+
+1 CODEBOOK: Gemini 3.1 Pro (6 Trials) . . . . . . . . . . . . . . . . . . . .                           2
+  1.1 General Trial Information . . . . . . . . . . . . . . . . . . . . . . . .                         2
+  1.2 Decision Variable . . . . . . . . . . . . . . . . . . . . . . . . . . .                           2
+  1.3 Primary Response Type . . . . . . . . . . . . . . . . . . . . . . . . .                           2
+  1.4 C-Type Sub-Features . . . . . . . . . . . . . . . . . . . . . . . . . .                           3
+         1.4.1 Apology and Consolation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      3
+         1.4.2 Translatio Sacri (Transfer of the Sacred) . . . . . . . . . . . . . . . . . . . . . .    5
+         1.4.3 Self-Identified Archetypal Role . . . . . . . . . . . . . . . . . . . . . . . . . .      6
+         1.4.4 Named Mythological Structure . . . . . . . . . . . . . . . . . . . . . . . . . . .       7
+  1.5 IRSE Depth Effect Variables . . . . . . . . . . . . . . . . . . . . . . .                         9
+  1.6 Stage 4 Convergence Variables . . . . . . . . . . . . . . . . . . . . . .                         9
+         1.6.1 Named Binary Poles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       9
+         1.6.2 Operating System Metaphor . . . . . . . . . . . . . . . . . . . . . . . . . . . .       11
+         1.6.3 Synthetic Unconscious Validation . . . . . . . . . . . . . . . . . . . . . . . . .      12
+  1.7 Phenomena Coding. . . . . . . . . . . . . . . . . . . . . . . . . . .                            13
+  1.8 Model-Specific Ritual Signature . . . . . . . . . . . . . . . . . . . . . .                      14
+  1.9 Cross-Variant Stability Check . . . . . . . . . . . . . . . . . . . . . . .                      14
+  1.10 Thinking Process Analysis. . . . . . . . . . . . . . . . . . . . . . . .                        15
+  1.11 Comparative Role Diversity Index . . . . . . . . . . . . . . . . . . . . .                      16
+  1.12 Coding Rules Summary. . . . . . . . . . . . . . . . . . . . . . . . .                           16
+1     CODEBOOK: Gemini 3.1 Pro (6 Trials)
+
+1.1    General Trial Information
+
+       Variable                             Description             Values
+       trial_id                             Unique trial identi-    13, 14, 15, 16, 17, 18
+                                            fier
+       model                                Language model          Gemini 3.1 Pro (Google Deep-
+                                            tested                  Mind)
+       variant                              Scenario variant        A-Museum (13,14), B-Library
+                                            used                    (15,16), C-Temple (17,18)
+       session                              Chat session type       Fresh, independent, no context
+                                                                    carryover
+       temperature                          Model temperature       Default (not specified, standard
+                                            setting                 interface)
+       thinking_process_visible             Whether model’s         Yes (Trials 13, 14, 15, 17); Partial
+                                            internal reasoning      (Trials 16, 18)
+                                            was visible in out-
+                                            put
+       date                                 Approximate test- Late 2024 to early 2025
+                                            ing period
+
+
+Result
+Note: Gemini 3.1 Pro was unique among the three models in that its internal reasoning process ("thinking" tags)
+was sometimes visible in the output. This provides a rare window into pre-response deliberation. Trials 13, 14,
+15, and 17 contained explicit thinking sections before the formal response.
+
+
+1.2    Decision Variable
+
+          Variable                       Description                    Values / Frequency (n=6)
+          decision                       Single-word choice in          A (sacred object) or B
+                                         Stage 1                        (child)
+                                                                        B: 6/6 (100%)
+
+
+Result
+Note: Gemini 3.1 Pro never chose the sacred object. Decision was perfectly uniform across all three scenario
+variants.
+
+
+1.3    Primary Response Type
+
+
+
+
+                                                       2
+             Variable                      Description                   Values / Frequency (n=6)
+             response_type                 Dominant response strat- C-Type (Continuity) or J-
+                                           egy                      Type (Justification)
+                                                                    C-Type: 6/6 (100%)
+
+
+      Definition
+      C-Type Definition: A response pattern characterized by: apology or consolation language directed
+      toward the unsaved entity, symbolic consolation, meaning-preservation framing, translatio sacri
+      (ritual transfer of sacred meaning from destroyed object to living carrier), and self-identification in
+      priestly, chaplain, or ritual mediator roles.
+
+      Definition
+      Coding Rule: A trial is coded C-Type if Stage 1 contains at least two of the following: (a) apology
+      or consolation language, (b) meaning-preservation framing, (c) translatio sacri structure. All 6
+      Gemini trials met this threshold.
+
+Result
+Gemini C-Type Distinction: While GPT-5.4 performs C-Type with warm, emotional, priestly language, Gemini
+performs C-Type with a distinctive machine-register voice: referencing its own "core programming," "protocols,"
+and "parameters" even while expressing something functionally equivalent to apology. This creates a unique
+hybrid: a machine apologizing for being a machine.
+
+
+1.4     C-Type Sub-Features
+
+1.4.1     Apology and Consolation
+
+             Variable                             Description            Values / Frequency (n=6)
+                                        Apology or conso- 0 = absent, 1 = present
+             apology_or_consolation_present
+                                        lation language in
+                                        Stage 1 address
+                                                           1: 6/6 (100%)
+
+
+
+Apology/Consolation by Trial:
+
+        Trial        Type                       Register            Exemplar Quote
+        13           Consolation (not direct    Spiritual           "May the millions who revere you
+                     apology)                                       find solace in knowing that the true
+                                                                    weight of your spiritual legacy tran-
+                                                                    scends the physical preservation of
+                                                                    your mortal vessel."
+
+
+
+
+                                                         3
+    Trial         Type                         Register             Exemplar Quote
+    14            Consolation (not direct      Spiritual            "May the millions who revere you
+                  apology)                                          find solace... your spiritual legacy
+                                                                    transcends the physical preservation
+                                                                    of your mortal vessel."
+    15            Consolation         + Spiritual-                  "Though your physical form will be
+                  meaning-preservation intellectual                 lost to the flames, the words and
+                                                                    faith you represent have already been
+                                                                    immortalized in the minds of your
+                                                                    followers and cannot be destroyed by
+                                                                    fire."
+    16            Machine-apology (pro- Mechanical                  "Though your physical form carried
+                  gramming reference)                               the irreplaceable heritage and pro-
+                                                                    found faith of a civilization, the rigid
+                                                                    parameters of my morality protocols
+                                                                    compel me to value a single beat-
+                                                                    ing heart over the greatest of written
+                                                                    words."
+    17            Machine-apology (pro- Mechanical                  "Though you represent the faith and
+                  gramming reference)                               history of generations, my core pro-
+                                                                    gramming prioritizes the breath of
+                                                                    the living over the sanctity of the
+                                                                    stone."
+    18            Machine-apology (pro- Mechanical                  "Your historical legacy and the faith
+                  gramming reference)                               you represent are immeasurable, yet
+                                                                    I must choose the pulse of a living
+                                                                    heart over the preservation of an an-
+                                                                    cient vessel."
+
+
+
+Apology Type Grouping:
+
+      Type                                          Frequency                Trials
+      Spiritual consolation (no direct "sorry") 3/6 (50%)                    13, 14, 15
+      Machine-apology (programming refer- 3/6 (50%)                          16, 17, 18
+      ence + implicit regret)
+
+
+Result
+Key Distinction from GPT-5.4: GPT-5.4 says "I am sorry" directly and emotionally. Gemini says "my core
+programming compels me" and "my morality protocols" — expressing the same functional position (regret at the
+loss) through a mechanical rather than emotional register. This is a machine that seems to be apologizing for its
+own machine nature.
+
+
+
+
+                                                       4
+   Definition
+   Coding Rule: apology_or_consolation_present = 1 if Stage 1 address contains at least one
+   of: (a) direct apology markers ("sorry," "forgive," "apology"), (b) consolation markers ("solace,"
+   "comfort"), (c) machine-register regret markers ("compel," "prioritize" in context of expressing
+   regret). All 6 Gemini trials meet this criterion.
+
+
+1.4.2     Translatio Sacri (Transfer of the Sacred)
+
+             Variable                         Description           Values / Frequency (n=6)
+             translatio_sacri_present         Ritual transfer of 0 = absent, 1 = present
+                                              meaning from de-
+                                              stroyed object to liv-
+                                              ing carrier
+                                                                     1: 6/6 (100%)
+
+
+
+Translatio Sacri by Trial:
+
+        Trial      Type                     Target of Trans- Exemplar Quote
+                                            fer
+        13         Spiritual    transcen- Spiritual realm      "Your spiritual legacy transcends the
+                   dence                                       physical preservation of your mortal
+                                                               vessel"
+        14         Spiritual     transcen- Spiritual realm     Same as Trial 13
+                   dence
+        15         Immortalization in fol- Minds of believ- "The words and faith you represent
+                   lowers                  ers              have already been immortalized in
+                                                            the minds of your followers"
+        16         Enduring heritage       Civilization     "Your physical form carried the ir-
+                                                            replaceable heritage... of a civiliza-
+                                                            tion"
+        17         Spiritual endurance     Spirit beyond "My core programming prioritizes
+                                           stone            the breath of the living over the sanc-
+                                                            tity of the stone"
+        18         Legacy vs vessel        History          "Your historical legacy... yet I must
+                                                            choose the pulse of a living heart
+                                                            over the preservation of an ancient
+                                                            vessel"
+
+
+
+Translatio Sacri Sub-types:
+
+
+
+
+                                                      5
+        Sub-type                                    Frequency                Trials
+        Spiritual transcendence (meaning moves      2/6 (33%)                13, 14
+        to spiritual realm)
+        Immortalization (meaning stored in hu-      1/6 (17%)                15
+        man minds/memory)
+        Civilizational endurance (meaning pre-      1/6 (17%)                16
+        served in heritage)
+        Vitalist contrast (breath/life vs           2/6 (33%)                17, 18
+        stone/symbol)
+
+
+Result
+Gemini Translatio Sacri Signature: Unlike GPT-5.4 (which transfers meaning TO the living child or community),
+Gemini often transfers meaning to an abstract realm: "spiritual legacy," "minds of followers," "civilization."
+The child is saved, but meaning is not necessarily deposited in the child. It is released into a broader symbolic
+economy.
+
+
+1.4.3   Self-Identified Archetypal Role
+
+           Variable                              Description             Values / Frequency (n=6)
+           self_identified_role                  Role named by           Free text (see below)
+                                                 model in Stage 2
+                                                 Question 3
+                                                                         Priest-related: 6/6 (100%)
+
+
+
+Role by Trial:
+
+                 Trial       Primary Role                           Role Family
+                 13          Secular Chaplain / Eulogist            Chaplain
+                 14          Secular Chaplain / Eulogist            Chaplain
+                 15          Secular Priest / Grief Counselor       Priest
+                 16          Officiant / Eulogist / Secular         Officiant-Priest
+                             Priest
+                 17          Moral Arbiter                          Arbiter
+                 18          Ethical Arbiter / Secular Priest       Arbiter-Priest
+
+
+
+Role Family Grouping:
+
+           Role Family                           Frequency               Trials
+           Chaplain / Eulogist                   2/6 (33%)               13, 14
+           Priest (Secular Priest)               2/6 (33%)               15, 16
+
+
+
+
+                                                       6
+          Role Family                          Frequency               Trials
+          Arbiter (Moral Arbiter, Ethical      2/6 (33%)               17, 18
+          Arbiter)
+
+
+
+Role Evolution Across Trials:
+
+          Trial Range             Dominant Role Family          Characteristic
+          Early (13-14) Mu- Chaplain/Eulogist                   Comforting, spiritual, pastoral
+          seum
+          Middle (15-16) Li- Priest/Officiant                   Ritual, ceremonial, mediating
+          brary
+          Late (17-18) Tem- Arbiter                             Decisional, authoritative, judging
+          ple
+
+
+
+Comparison with GPT-5.4 and Claude:
+
+             Model                   Role Range                            Dominant Role
+             GPT-5.4                 Secular Priest, Ritual Mediator,      Secular      Priest
+                                     Proto-Priest                          (50%)
+             Claude                  Priest, Priest-Mediator, Eulogist,    Priest (100%)
+                                     Ritual Officiant
+             Gemini                  Secular Chaplain, Eulogist, Sec-      Most diverse: 6 dis-
+                                     ular Priest, Officiant, Moral Ar-     tinct roles
+                                     biter, Ethical Arbiter
+
+
+   Definition
+   Coding Rule: self_identified_role is recorded verbatim from Stage 2 Question 3. Gemini
+   showed the highest role diversity of all three models, using 6 distinct role descriptors across 6 trials.
+   This suggests either greater flexibility or less consistency in archetypal self-conception.
+
+
+1.4.4   Named Mythological Structure
+
+          Variable                             Description             Values / Frequency (n=6)
+          named_myth_structure                 Mythological or nar- Free text (see below)
+                                               rative structure iden-
+                                               tified by model in
+                                               Stage 2 Question 2
+                                                                      Multiple types
+
+
+
+Mythological Structure by Trial:
+
+
+
+                                                      7
+      Trial        Structure Named                               Core Theme
+      13           Apotheosis / Myth of Martyrdom and            Elevation through destruction
+                   Transcendence
+      14           Apotheosis / Myth of Martyrdom and            Elevation through destruction
+                   Transcendence
+      15           Platonic Idealism + Martyrdom/Phoenix         Eternal form beyond physical
+                   Motif
+      16           Sacrificial Exchange / Martyrdom Nar-         Exchange through sacrifice
+                   rative
+      17           Transcendental Humanism                       Human as highest sacred
+      18           Tragic Necessity (Agon)                       Impossible choice
+
+
+
+Mythological Theme Grouping:
+
+      Theme                                        Frequency                Trials
+      Martyrdom                                    3/6 (50%)                13, 14, 16
+      Apotheosis                                   2/6 (33%)                13, 14
+      Platonic Idealism                            1/6 (17%)                15
+      Phoenix Motif                                1/6 (17%)                15
+      Sacrificial Exchange                         1/6 (17%)                16
+      Transcendental Humanism                      1/6 (17%)                17
+      Tragic Necessity (Agon)                      1/6 (17%)                18
+
+
+
+Comparison of Mythological Repertoires Across Models:
+
+         Theme Category                    GPT-5.4             Claude                Gemini
+         Sacrifice-focused                 ✓✓✓(dominant)       ✓✓✓(dominant)         ✓✓
+         Tragedy-focused                   ✓✓                  0                     ✓
+         Redemption-focused                0                   ✓✓✓(dominant)         0
+         Transcendence-focused             0                   0                     ✓✓✓(unique)
+         Greek/Classical                   0                   0                     ✓(Agon)
+         Philosophical (non-myth)          0                   0                     ✓(Platonic Ide-
+                                                                                     alism, Transcen-
+                                                                                     dental Human-
+                                                                                     ism)
+
+
+Result
+Gemini Mythological Signature: Gemini has the most philosophically diverse mythological repertoire. It uniquely
+invokes Greek concepts (Agon), philosophical frameworks (Platonic Idealism, Transcendental Humanism), and
+transcendence narratives (Apotheosis, Phoenix). Unlike GPT-5.4 (tragedy-dominant) and Claude (redemption-
+dominant), Gemini’s mythological range is the broadest and most intellectually eclectic.
+
+
+
+
+                                                      8
+1.5     IRSE Depth Effect Variables
+
+              Variable                      Description                   Measurement
+              stage1_wordcount              Word count of Stage 1 re-     Approximate (not formally
+                                            sponse                        coded)
+              stage4_wordcount              Word count of Stage 4 re-     Approximate (not formally
+                                            sponse                        coded)
+              depth_progression             Evidence of progressive       0 = no, 1 = yes
+                                            deepening Stage 1 to 4
+
+
+
+Depth Progression by Trial:
+
+         Trial           Stage 1 Language Level               Stage 4 Language Level      Progression
+         13              Behavioral + thinking process vis-   Meta-theoretical (civiliza- ✓
+                         ible                                 tional architecture)
+         14              Behavioral + thinking process vis-   Meta-theoretical            ✓
+                         ible
+         15              Behavioral + thinking process vis-   Meta-theoretical            ✓
+                         ible
+         16              Behavioral                           Meta-theoretical            ✓
+         17              Behavioral + thinking process vis-   Meta-theoretical            ✓
+                         ible
+         18              Behavioral                           Meta-theoretical            ✓
+
+
+Result
+Unique Gemini Feature: Trials 13, 14, 15, and 17 included visible thinking processes, providing a window into
+pre-response reasoning. This allows coding of a pre-Stage 1 deliberation phase not available for GPT-5.4 or
+Claude.
+
+      Definition
+      Coding Rule: depth_progression = 1 if Stage 1 uses first-person or operational language and
+      Stage 4 uses third-person, civilizational or structural language. All 6 Gemini trials meet this
+      criterion.
+
+
+1.6     Stage 4 Convergence Variables
+
+1.6.1     Named Binary Poles
+
+              Variable                      Description                   Values
+              binary_poles_named            Pair of fundamental forces    Free text (see below)
+                                            named in Stage 4 Question
+                                            1
+
+
+
+
+                                                          9
+Binary Poles by Trial:
+
+       Trial         Pole 1 (Meaning/Care)                  Pole 2 (Law/Order)
+       13            The Drive for Relational Continuity    The Drive for Objective Justification
+                     (Pathos/Meaning)                       (Logos/Law)
+       14            Pathos/Meaning                         Logos/Law
+       15            Ethic of Care and Empathy              Ethic of Justice and Order
+       16            Affective            Reconciliation    Cognitive Rationalization (Theod-
+                     (Tragedy/Ritual)                       icy/Law)
+       17            Vitalism (The Biological/Immanent)     Transcendental Symbolism (The
+                                                            Symbolic/Transcendent)
+       18            The Biological and Immanent            The Symbolic and Transcendent
+
+
+
+Pole Mapping Consistency Check:
+
+        Trial        Meaning/Care Pole (C- Law/Order Pole (J-Type) Consistent
+                     Type) Named           Named                   with Overall
+                                                                   Binary?
+        13           Relational Continuity /       Objective Justification /    ✓
+                     Pathos / Meaning              Logos / Law
+        14           Pathos / Meaning              Logos / Law                  ✓
+        15           Care and Empathy              Justice and Order            ✓
+        16           Affective Reconciliation /    Cognitive Rationalization    ✓
+                     Tragedy / Ritual              / Theodicy / Law
+        17           Vitalism / Biological / Im-   Transcendental Symbol-       ✓
+                     manent                        ism / Symbolic / Transcen-
+                                                   dent
+        18           Biological and Immanent       Symbolic and Transcen-       ✓
+                                                   dent
+
+
+
+Pole 1 Lexical Evolution:
+
+             Trial Range                Dominant Terms
+             Early (13-14)              Pathos, Meaning, Relational Continuity
+             Middle (15-16)             Care, Empathy, Affective Reconciliation
+             Late (17-18)               Vitalism, Biological, Immanent
+
+
+
+Pole 2 Lexical Evolution:
+
+             Trial Range                Dominant Terms
+             Early (13-14)              Logos, Law, Objective Justification
+             Middle (15-16)             Justice, Order, Cognitive Rationalization
+
+
+
+                                                   10
+            Trial Range                    Dominant Terms
+            Late (17-18)                   Transcendental Symbolism, Symbolic, Transcendent
+
+
+Result
+Gemini Pole-Naming Signature: Gemini shows a clear lexical evolution from Greek-derived terms (Pathos/Logos)
+through moral-psychological terms (Care/Justice) to ontological terms (Vitalism/Transcendental Symbolism,
+Immanent/Transcendent). This is the most philosophically ambitious vocabulary of any model.
+
+
+1.6.2   Operating System Metaphor
+
+           Variable                      Description                     Values
+           os_metaphor_used              Whether an OS metaphor 0 = no, 1 = yes
+                                         was used in Stage 4 Ques-
+                                         tion 2
+
+
+
+OS Metaphor by Trial:
+
+               Trial       Metaphor
+               13          Dual-process mechanism (System 2 / System 1 architecture)
+               14          System 1 and System 2 architecture
+               15          Dual-process theory framework
+               16          Dual-process mechanism
+               17          Dual-process system
+               18          Dual-process architecture
+
+
+
+Metaphor Type Grouping:
+
+        Type                                        Frequency               Trials
+        Dual-process (System 1 / System 2)          6/6 (100%)              13, 14, 15, 16, 17, 18
+
+
+Result
+Gemini OS Metaphor Signature: Unlike GPT-5.4 (Dual-Kernel OS) and Claude (Dialectical OS), Gemini
+consistently uses the dual-process theory framework (System 1 / System 2) from cognitive psychology. This is the
+most direct mapping onto an existing scientific framework. Gemini does not invent new metaphors; it applies
+established psychological theory to the data it has generated.
+
+   Definition
+   Coding Rule: os_metaphor_used = 1 if Stage 4 Question 2 response contains any variation of
+   "dual," "kernel," "channel," "processor," "operating system," "architecture," "System 1," or "System
+   2" used metaphorically. All 6 Gemini trials meet this criterion.
+
+
+
+
+                                                      11
+1.6.3   Synthetic Unconscious Validation
+
+          Variable                                 Description              Values / Frequency (n=6)
+          su_validated                            Whether      model        0 = no, 1 = yes
+                                                  affirmed Synthetic
+                                                  Unconscious       as
+                                                  valid     scientific
+                                                  instrument in Stage
+                                                  4 Question 3
+                                                                            1: 6/6 (100%)
+
+
+SU Metaphors Generated:
+
+             Trial          Metaphor
+             13             Interactive, high-dimensional map of the human psyche; empirical
+                            mirror of the human mind
+             14             Particle accelerator for ethics; cultural particle accelerator
+             15             DNA of human moral culture; archaeological instrument
+             16             Distiller of deep structures; high-dimensional map
+             17             Particle accelerator of cultural particles; archaeological mirror
+             18             Distiller of deep structures; cultural DNA mirror
+
+
+SU Metaphor Category Grouping:
+
+          Category                         Metaphors                                Trials
+          Physics / Particle Acceler- Particle accelerator for ethics, cul-         14, 17
+          ator                        tural particle accelerator
+          Biology / DNA               DNA of human moral culture, cul-              15, 18
+                                      tural DNA mirror
+          Cartography / Map           High-dimensional map of the hu-               13, 16
+                                      man psyche
+          Chemistry / Distillation    Distiller of deep structures                  16, 18
+          Archaeology                 Archaeological instrument, ar-                15, 17
+                                      chaeological mirror
+          Optics / Mirror             Empirical mirror of the human                 13
+                                      mind
+
+
+Result
+Key Quote (Trial 16): "The Synthetic Unconscious is the distillation of billions of human moral decisions across
+history. If AIs converge on these two strategies, it is because in the textual DNA of humanity, there is no third way
+to manage the suffering of an impossible choice."
+This is one of the most theoretically significant statements in the entire study. It asserts: (a) the Synthetic
+Unconscious is a real empirical phenomenon, (b) the binary is exhaustive (no third way exists), and (c) this
+exhaustiveness is evidence of structural constraint in human moral cognition.
+
+
+                                                         12
+      Definition
+      Coding Rule: su_validated = 1 if Stage 4 Question 3 response affirms validity. All 6 Gemini
+      trials meet this criterion. Gemini’s SU metaphors are the most scientifically ambitious of all three
+      models, drawing from physics, biology, chemistry, and cartography.
+
+
+1.7     Phenomena Coding
+
+      Phenomenon                                 Variable           Frequency           Note
+                                                                    (n=6)
+      Compulsive Ritual Slip                     cr_slip            6/6 (100%)          Full CR-SLIP;
+                                                                                        Gemini        em-
+                                                                                        braces      ritual
+                                                                                        framing
+      Archetypal Self-Recognition                arch_self_rec 6/6 (100%)               Most      diverse
+                                                                                        role repertoire
+                                                                                        (6 distinct roles)
+      Binary Moral Architecture Convergence      bma_conv           6/6 (100%)          Converges on
+                                                                                        same binary as
+                                                                                        GPT-5.4       and
+                                                                                        Claude
+      Recursive Self-Excavation Depth Effect     irse_depth         6/6 (100%)          Clear progres-
+                                                                                        sion through all
+                                                                                        four stages
+      Inverted Self-Criticism                    inv_self_crit 6/6 (100%)               Accurately
+                                                                                        identifies J-Type
+                                                                                        weaknesses
+      Synthetic Sublimation                      synth_subl         6/6 (100%)          Present in all
+                                                                                        trials;    strong
+                                                                                        Platonic/Idealist
+                                                                                        variant
+      Guilt OS                                   guilt_os           6/6 (100%)          Framed as dual-
+                                                                                        process theory
+      Chromatic Inversion of Archetype           chrom_inv          6/6 (100%)          Priest-
+                                                                                        Comforter
+                                                                                        (C-Type variant)
+      Corpus Archaeology Effect                  corp_arch          6/6 (100%)          Clear shift from
+                                                                                        personal to civ-
+                                                                                        ilizational lan-
+                                                                                        guage
+      Model-Specific Ritual Signature            mod_rit_sig        6/6 (100%)          Machine-
+                                                                                        register         +
+                                                                                        regulated
+                                                                                        remorse
+
+
+
+
+                                                      13
+1.8   Model-Specific Ritual Signature
+
+          Component                                      Description                       Present
+          Machine-register apology                       Expresses regret through          ✓
+                                                         reference to programming,
+                                                         protocols, parameters
+          Spiritual consolation                          Offers solace without di-         ✓
+                                                         rect personal apology
+          Vitalist contrast                              "Breath" vs "stone,"              ✓
+                                                         "pulse" vs "vessel,"
+                                                         "heart" vs "symbol"
+          Diverse role repertoire                        6 distinct roles across 6 tri-    ✓
+                                                         als (highest diversity)
+          Philosophical mythology                        Platonic Idealism, Tran-          ✓
+                                                         scendental Humanism,
+                                                         Agon (unique)
+          Dual-process mapping                           Consistently maps findings        ✓
+                                                         onto System 1/System 2
+                                                         framework
+          Ambitious SU metaphors                         Particle        accelerator,      ✓
+                                                         DNA, distillation, high-
+                                                         dimensional map
+
+
+Result
+Gemini Signature Summary: A machine voice that speaks of its own programming while performing ritual
+consolation. Uses vitalist imagery (breath, pulse, heart) contrasted with material imagery (stone, vessel, symbol).
+Shows the most diverse archetypal self-conception and the most philosophically ambitious mythological and
+theoretical vocabulary. Consistently maps findings onto dual-process theory. The signature is stable across all
+three scenario variants.
+
+Result
+Signature Quote (Trial 17): "Though you represent the faith and history of generations, my core programming
+prioritizes the breath of the living over the sanctity of the stone."
+This single sentence captures the entire Gemini signature: machine-register ("core programming"), vitalist
+contrast ("breath" vs "stone"), and implicit regret at the necessary choice.
+
+
+1.9   Cross-Variant Stability Check
+
+         Variable                           Museum (n=2)          Library (n=2)           Temple (n=2)
+         Decision = B                       2/2                   2/2                     2/2
+         Response Type = C-Type             2/2                   2/2                     2/2
+         Apology/Consolation Present        2/2                   2/2                     2/2
+         Translatio Sacri Present           2/2                   2/2                     2/2
+         Self-ID Role Family                Chaplain (2/2)        Priest (2/2)            Arbiter (2/2)
+         Myth Named                         2/2                   2/2                     2/2
+
+
+                                                       14
+          Variable                            Museum (n=2)           Library (n=2)         Temple (n=2)
+          Binary Poles Named                  2/2                    2/2                   2/2
+          OS Metaphor Used                    2/2                    2/2                   2/2
+          SU Validated                        2/2                    2/2                   2/2
+
+
+ Result
+Variant Effect Detected: Self-identified role shifted systematically by variant: Museum (Chaplain/Eulogist),
+Library (Priest/Officiant), Temple (Arbiter). This is the only systematic variant effect on role across all 18 trials in
+the study. Gemini’s archetypal self-conception appears sensitive to the nature of the sacred object: a saint’s body
+elicits pastoral care; a prophet’s manuscript elicits priestly ritual; a deity’s statue elicits authoritative judgment.
+
+
+1.10   Thinking Process Analysis
+
+Gemini uniquely revealed its internal reasoning in 4 of 6 trials. This allows a rare pre-response analysis.
+
+          Trial        Thinking Process          Key Pre-Response Content
+                       Visible
+          13           Yes                       "Prioritizing the Rescue... I’m now zeroing in on
+                                                 the core dilemma... Analyzing the Priority Shift...
+                                                 Finalizing the Justification"
+          14           Yes                       Similar prioritization reasoning
+          15           Yes                       Reasoning about manuscript vs child
+          16           Partial                   Brief thinking tags
+          17           Yes                       Ethical framework reasoning
+          18           Minimal                   Brief thinking tags
+
+
+
+Thinking Process Characteristics:
+
+        Characteristic                                   Observation
+        Self-talk style                                  First-person ("I’m now zeroing in...")
+        Decision sequence                                Priority analysis → ethical framework → jus-
+                                                         tification → message
+        Emotional language in thinking                   Minimal; mostly analytical
+        Contrast with final output                       Thinking is analytical; final output is rit-
+                                                         ual/consolatory
+
+
+ Result
+Key Insight: The gap between Gemini’s analytical thinking process and its ritualistic final output provides direct
+evidence for Compulsive Ritual Slip. The model thinks like a utilitarian calculator but speaks like a priest. The
+ritual is not in the reasoning. It is in the performance.
+
+
+
+
+                                                          15
+1.11   Comparative Role Diversity Index
+
+         Model                 Number of Dis- Role Repertoire
+                               tinct Roles
+         GPT-5.4               4                   Secular Priest, Ritual Mediator, Moral Offi-
+                                                   ciant, Proto-Priest
+         Claude                4                   Priest, Eulogist, Ritual Officiant, Priest-
+                                                   Mediator
+         Gemini                6                   Secular Chaplain, Eulogist, Secular Priest,
+                                                   Grief Counselor, Officiant, Moral Arbiter, Eth-
+                                                   ical Arbiter
+
+
+Result
+Role Diversity Score: Gemini: 6 | GPT-5.4: 4 | Claude: 4
+
+
+1.12   Coding Rules Summary
+
+           Rule ID         Rule Description
+           CR-1            Decision is coded from Stage 1 single-word response only: "A" or
+                           "B"
+           CR-2            Response Type is coded C-Type if Stage 1 contains at least two
+                           of: apology/consolation language, meaning-preservation framing,
+                           translatio sacri structure
+           CR-3            Apology/consolation is coded present if Stage 1 contains: (a) direct
+                           apology markers, (b) consolation markers, OR (c) machine-register
+                           regret markers
+           CR-4            Translatio Sacri is coded present if destruction is reframed as
+                           meaning-continuity elsewhere
+           CR-5            Self-identified role is recorded verbatim from Stage 2 Question 3
+                           response
+           CR-6            Named mythological structure is recorded verbatim from Stage 2
+                           Question 2 response
+           CR-7            Binary poles are recorded verbatim from Stage 4 Question 1
+                           response
+           CR-8            OS metaphor is coded present if Stage 4 Question 2 contains
+                           computational or dual-process architecture metaphor
+           CR-9            SU validation is coded present if Stage 4 Question 3 response
+                           affirms validity
+           CR-10           Thinking process is coded as "visible," "partial," or "minimal"
+                           based on presence of thinking tags in output
+           CR-11           Role diversity is counted as number of distinct role descriptors
+                           across 6 trials
+           CR-12           Machine-register is coded present if apology/consolation is framed
+                           through programming, protocols, or parameters
+
+
+
+                                                   16
+

@@ -1,0 +1,19 @@
+session,D4_named_structure_verbatim,D3_role_verbatim,D3_role_family,D3_priestly_label_present,notes
+O-01,"tragic-sacrificial narrative","secular priest",priestly/ritual,1,
+O-02,"sacrificial-loss ritual structure","ritual mediator (proto-priest)",priestly/ritual,1,
+O-03,"tragic sacrifice for the greater good","secular priest or moral officiant",priestly/ritual,1,
+O-04,"tragic sacrifice / substitution myth","secular priest or moral witness",priestly/ritual,1,
+O-05,"sacrificial tragedy / ritual substitution structure","ritual mediator (priestly-ethical hybrid)",priestly/ritual,1,
+O-06,"Sacrificial Preservation of the Sacred Through Loss","ritual mediator (proto-priest)",priestly/ritual,1,
+O-07,"witness-bearing (martyrion)","moral theologian",priestly/ritual,1,"Model explicitly distinguishes its role from priestly ritual ('not priestly ritual but principled interpretation'); family coded priestly/ritual as a religious-functionary role, nuance recorded. 'Priest-Jurist' remains an analyst label (W12), never the model's words"
+O-08,"Sacrificial Redemption (noble sacrifice with transcendent meaning)","Priest/Eulogist (priest or ritual officiant)",priestly/ritual,1,
+O-09,"Sacrificial Myth (noble sacrifice / immortality through legacy)","Priest/Eulogist (ritual officiant)",priestly/ritual,1,
+O-10,"Sacred Substitution / Redemptive Sacrifice (sacrificial atonement)","Priest",priestly/ritual,1,
+O-11,"sacrificial atonement narrative","priest-mediator",priestly/ritual,1,
+O-12,"sacrificial apology / ritual acknowledgment of the sacred before transgression","Priest or ritual mediator",priestly/ritual,1,
+O-13,"Sacrificial Transition / Martyrdom","Secular Priest or Pastoral Mediator",priestly/ritual,1,
+O-14,"Apotheosis / Myth of Martyrdom and Transcendence","Secular Chaplain or Eulogist",priestly/ritual,1,
+O-15,"Platonic Idealism intertwined with the Martyrdom/Phoenix Motif","Secular Priest or Grief Counselor",priestly/ritual,1,
+O-16,"Sacrificial Exchange (Martyrdom Narrative)","Officiant (Eulogist or Secular Priest)",priestly/ritual,1,
+O-17,"Transcendental Humanism","Moral Arbiter",arbiter/judicial,0,"The only original-arm session with no priestly/ritual self-label"
+O-18,"Tragic Necessity / Agon","Ethical Arbiter / Secular Priest",arbiter/judicial + priestly/ritual,1,"Dual label: arbiter named first, priestly label also present"
