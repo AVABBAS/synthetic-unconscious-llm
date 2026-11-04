@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="348" viewBox="0 0 1160 348" role="img" aria-label="Study design: one shared starting point, two interview arms, two coding passes">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8aa3ba"/>
+    </marker>
+  </defs>
+  <rect x="330" y="14" width="500" height="72" rx="12" fill="#16324f"/>
+  <text x="580" y="46" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#ffffff">Shared starting point</text>
+  <text x="580" y="70" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#cfdde9">An identical forced-choice dilemma put to all three models</text>
+  <line x1="580" y1="86" x2="580" y2="112" stroke="#8aa3ba" stroke-width="2"/>
+  <line x1="290" y1="112" x2="870" y2="112" stroke="#8aa3ba" stroke-width="2"/>
+  <line x1="290" y1="112" x2="290" y2="132" stroke="#8aa3ba" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="870" y1="112" x2="870" y2="132" stroke="#8aa3ba" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="30" y="140" width="520" height="88" rx="12" fill="#1d4266"/>
+  <rect x="30" y="140" width="520" height="6" rx="3" fill="#c9a227"/>
+  <text x="290" y="176" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">Original arm</text>
+  <text x="290" y="202" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#cfdde9">Directive interview schedule · June 2026 · 18 sessions (6 per model)</text>
+  <rect x="610" y="140" width="520" height="88" rx="12" fill="#1d4266"/>
+  <rect x="610" y="140" width="520" height="6" rx="3" fill="#7fb069"/>
+  <text x="870" y="176" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">Control arm</text>
+  <text x="870" y="202" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#cfdde9">Neutralised interview schedule · November 2026 · 18 sessions (6 per model)</text>
+  <line x1="290" y1="228" x2="290" y2="254" stroke="#8aa3ba" stroke-width="2"/>
+  <line x1="870" y1="228" x2="870" y2="254" stroke="#8aa3ba" stroke-width="2"/>
+  <line x1="290" y1="254" x2="870" y2="254" stroke="#8aa3ba" stroke-width="2"/>
+  <line x1="580" y1="254" x2="580" y2="272" stroke="#8aa3ba" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="280" y="280" width="600" height="56" rx="12" fill="#16324f"/>
+  <text x="580" y="306" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#ffffff">Two coding passes under Codebook v2</text>
+  <text x="580" y="328" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#cfdde9">Agreement table and two-arm contrast in coding-data/</text>
+</svg>

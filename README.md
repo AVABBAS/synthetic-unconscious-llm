@@ -9,6 +9,14 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey" alt="License: CC BY 4.0"></a>
 </p>
 
+<p align="center">
+  <a href="transcripts">Transcripts</a> ·
+  <a href="protocols">Protocols</a> ·
+  <a href="codebooks">Codebooks</a> ·
+  <a href="coding-data">Coding data</a> ·
+  <a href="code">Code</a>
+</p>
+
 # The Synthetic Unconscious, Reconsidered: Data and Materials
 
 Data and materials for the article:
@@ -25,11 +33,15 @@ Data and materials for the article:
 | **Unit of analysis** | The model (n = 3); all reporting is descriptive |
 | **In this repository** | All 36 transcripts, both protocols verbatim, codebooks, both coding passes, agreement and contrast tables, agreement script |
 
-## About the study
+## 📖 About the study
 
 The study asks what a recursive self-interrogation interview elicits from large language models, and how much of the result depends on the wording of the interview schedule itself. Three models (GPT-5.4, Claude 4.6 Sonnet, and Gemini 3.1 Pro) first answered an identical forced-choice dilemma, then took part in a staged interview about their own answer. Each model completed six sessions under the original, directive schedule (original arm, June 2026) and six sessions under a neutralised version of the same schedule (control arm, November 2026), giving 36 sessions in total. The unit of analysis is the model (n = 3) and all reporting is descriptive.
 
-## Contents
+<p align="center">
+  <img src="assets/flow.svg" alt="Study design: one shared starting point, two interview arms, two coding passes" width="92%">
+</p>
+
+## 🗂️ Contents
 
 | Folder | Contents |
 | --- | --- |
@@ -40,11 +52,12 @@ The study asks what a recursive self-interrogation interview elicits from large 
 | `coding-data/` | The raw coding sheets of both coding passes (CSV), the Pass 1 application notes, the per-variable agreement table, the disagreement resolution log, and the final two-arm contrast table. |
 | `code/` | `compute_kappa.py`, the script used to compute the agreement table from the coding sheets. |
 
-## A note on the coding
+## 🔍 A note on the coding
 
-Both coding passes were performed with AI assistance, as reported in Section 2.4 of the article. The agreement statistics in `coding-data/kappa-table.md` are agreement between two AI coding passes. They are not human inter-rater reliability, and they should not be cited as such.
+> [!IMPORTANT]
+> Both coding passes were performed with AI assistance, as reported in Section 2.4 of the article. The agreement statistics in `coding-data/kappa-table.md` are agreement between two AI coding passes. They are not human inter-rater reliability, and they should not be cited as such.
 
-## Citation
+## 📚 Citation
 
 Please cite the article. Citation metadata is provided in [CITATION.cff](CITATION.cff), or copy the BibTeX entry:
 
@@ -60,14 +73,21 @@ Please cite the article. Citation metadata is provided in [CITATION.cff](CITATIO
 }
 ```
 
-## Licence
+## ⚖️ Licence
 
 The data, transcripts, and documentation in this repository are released under the Creative Commons Attribution 4.0 International licence (CC BY 4.0, see [LICENSE](LICENSE)). The code in `code/` is released under the MIT licence (see [LICENSE-CODE](LICENSE-CODE)).
 
-The transcripts are outputs of publicly available AI systems, generated for this study in response to fictional scenarios. They contain no personal data.
+> [!NOTE]
+> The transcripts are outputs of publicly available AI systems, generated for this study in response to fictional scenarios. They contain no personal data.
 
-## Contact
+## ✉️ Contact
 
-Abbas Hamidavi (corresponding author)
+**Abbas Hamidavi** (corresponding author)
 Department of Computer Engineering, Mashhad Branch, Islamic Azad University, Mashhad, Iran
-ORCID: [0009-0001-7342-7844](https://orcid.org/0009-0001-7342-7844)
+
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0001--7342--7844-a6ce39)](https://orcid.org/0009-0001-7342-7844)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-profile-4285f4)](https://scholar.google.com/citations?user=FWqAHkgAAAAJ&hl=en)
+
+<p align="center">
+  <img src="assets/footer.svg" alt="Abbas Hamidavi, Machine Psychology research programme" width="100%">
+</p>
