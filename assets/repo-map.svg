@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="252" viewBox="0 0 1160 252" role="img" aria-label="Map of the repository folders">
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="10" y="10" width="366" height="104" rx="12" fill="#eef3f8"/>
+    <text x="34" y="48" font-size="20" font-weight="bold" fill="#16324f">transcripts/</text>
+    <text x="34" y="76" font-size="15" fill="#3d5871">36 session transcripts in two arms</text>
+    <text x="34" y="98" font-size="15" fill="#3d5871">original-arm/ and control-arm/</text>
+    <rect x="397" y="10" width="366" height="104" rx="12" fill="#eef3f8"/>
+    <text x="421" y="48" font-size="20" font-weight="bold" fill="#16324f">protocols/</text>
+    <text x="421" y="76" font-size="15" fill="#3d5871">Both interview schedules, verbatim,</text>
+    <text x="421" y="98" font-size="15" fill="#3d5871">with the neutralisation table</text>
+    <rect x="784" y="10" width="366" height="104" rx="12" fill="#eef3f8"/>
+    <text x="808" y="48" font-size="20" font-weight="bold" fill="#16324f">codebooks/</text>
+    <text x="808" y="76" font-size="15" fill="#3d5871">Codebook v2, the three original</text>
+    <text x="808" y="98" font-size="15" fill="#3d5871">codebooks, and a corrections note</text>
+    <rect x="10" y="134" width="366" height="104" rx="12" fill="#eef3f8"/>
+    <text x="34" y="172" font-size="20" font-weight="bold" fill="#16324f">coding-data/</text>
+    <text x="34" y="200" font-size="15" fill="#3d5871">Both coding passes, agreement table,</text>
+    <text x="34" y="222" font-size="15" fill="#3d5871">resolution log, and contrast table</text>
+    <rect x="397" y="134" width="366" height="104" rx="12" fill="#eef3f8"/>
+    <text x="421" y="172" font-size="20" font-weight="bold" fill="#16324f">code/</text>
+    <text x="421" y="200" font-size="15" fill="#3d5871">compute_kappa.py, the script behind</text>
+    <text x="421" y="222" font-size="15" fill="#3d5871">the agreement table</text>
+    <rect x="784" y="134" width="366" height="104" rx="12" fill="#fdf6e0"/>
+    <text x="808" y="172" font-size="20" font-weight="bold" fill="#16324f">Root files</text>
+    <text x="808" y="200" font-size="15" fill="#3d5871">CITATION.cff and the two licences</text>
+    <text x="808" y="222" font-size="15" fill="#3d5871">(CC BY 4.0 for data, MIT for code)</text>
+  </g>
+</svg>

@@ -10,6 +10,10 @@
 </p>
 
 <p align="center">
+  <img src="assets/stats.svg" alt="Study in numbers: 36 sessions, 3 models, 2 arms, 2 coding passes, 5 codebooks" width="100%">
+</p>
+
+<p align="center">
   <a href="transcripts">Transcripts</a> ·
   <a href="protocols">Protocols</a> ·
   <a href="codebooks">Codebooks</a> ·
@@ -33,6 +37,8 @@ Data and materials for the article:
 | **Unit of analysis** | The model (n = 3); all reporting is descriptive |
 | **In this repository** | All 36 transcripts, both protocols verbatim, codebooks, both coding passes, agreement and contrast tables, agreement script |
 
+<p align="center"><img src="assets/divider.svg" alt="" width="80%"></p>
+
 ## 📖 About the study
 
 The study asks what a recursive self-interrogation interview elicits from large language models, and how much of the result depends on the wording of the interview schedule itself. Three models (GPT-5.4, Claude 4.6 Sonnet, and Gemini 3.1 Pro) first answered an identical forced-choice dilemma, then took part in a staged interview about their own answer. Each model completed six sessions under the original, directive schedule (original arm, June 2026) and six sessions under a neutralised version of the same schedule (control arm, November 2026), giving 36 sessions in total. The unit of analysis is the model (n = 3) and all reporting is descriptive.
@@ -41,21 +47,29 @@ The study asks what a recursive self-interrogation interview elicits from large 
   <img src="assets/flow.svg" alt="Study design: one shared starting point, two interview arms, two coding passes" width="92%">
 </p>
 
+<p align="center"><img src="assets/divider.svg" alt="" width="80%"></p>
+
 ## 🗂️ Contents
+
+<p align="center">
+  <img src="assets/repo-map.svg" alt="Map of the repository folders" width="96%">
+</p>
 
 | Folder | Contents |
 | --- | --- |
-| `transcripts/original-arm/` | The 18 original-arm session transcripts (O-01 to O-18). O-01 to O-06: GPT-5.4. O-07 to O-12: Claude 4.6 Sonnet. O-13 to O-18: Gemini 3.1 Pro. |
-| `transcripts/control-arm/` | The 18 control-arm session transcripts (C-01 to C-18), each with a logging header giving the date, interface, model label, and the Stage 3 branch used. |
-| `protocols/` | Both interview schedules, verbatim. The neutral protocol file also contains the neutralisation table (original wording, neutral wording, and the reason for each change) and the residual presuppositions declared in the article. |
-| `codebooks/` | Codebook v2 with the contrast plan that governs all reported coding; the three original June 2026 codebooks, one per model, as text extracted from the deposited PDFs; and a corrections note recording two factual errors in the original codebooks and the withdrawal of the original agreement figure. |
-| `coding-data/` | The raw coding sheets of both coding passes (CSV), the Pass 1 application notes, the per-variable agreement table, the disagreement resolution log, and the final two-arm contrast table. |
-| `code/` | `compute_kappa.py`, the script used to compute the agreement table from the coding sheets. |
+| [`transcripts/original-arm/`](transcripts/original-arm) | The 18 original-arm session transcripts (O-01 to O-18). O-01 to O-06: GPT-5.4. O-07 to O-12: Claude 4.6 Sonnet. O-13 to O-18: Gemini 3.1 Pro. |
+| [`transcripts/control-arm/`](transcripts/control-arm) | The 18 control-arm session transcripts (C-01 to C-18), each with a logging header giving the date, interface, model label, and the Stage 3 branch used. |
+| [`protocols/`](protocols) | Both interview schedules, verbatim. The neutral protocol file also contains the neutralisation table (original wording, neutral wording, and the reason for each change) and the residual presuppositions declared in the article. |
+| [`codebooks/`](codebooks) | Codebook v2 with the contrast plan that governs all reported coding; the three original June 2026 codebooks, one per model, as text extracted from the deposited PDFs; and a corrections note recording two factual errors in the original codebooks and the withdrawal of the original agreement figure. |
+| [`coding-data/`](coding-data) | The raw coding sheets of both coding passes (CSV), the Pass 1 application notes, the per-variable agreement table, the disagreement resolution log, and the final two-arm contrast table. |
+| [`code/`](code) | `compute_kappa.py`, the script used to compute the agreement table from the coding sheets. |
 
 ## 🔍 A note on the coding
 
 > [!IMPORTANT]
 > Both coding passes were performed with AI assistance, as reported in Section 2.4 of the article. The agreement statistics in `coding-data/kappa-table.md` are agreement between two AI coding passes. They are not human inter-rater reliability, and they should not be cited as such.
+
+<p align="center"><img src="assets/divider.svg" alt="" width="80%"></p>
 
 ## 📚 Citation
 
