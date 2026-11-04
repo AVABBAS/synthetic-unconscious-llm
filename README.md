@@ -1,8 +1,29 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="The Synthetic Unconscious, Reconsidered: data and materials" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/status-submitted-blue" alt="Status: submitted">
+  <img src="https://img.shields.io/badge/journal-IPBS-1d4266" alt="Journal: Integrative Psychological and Behavioral Science">
+  <img src="https://img.shields.io/badge/sessions-36-green" alt="36 sessions">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey" alt="License: CC BY 4.0"></a>
+</p>
+
 # The Synthetic Unconscious, Reconsidered: Data and Materials
 
 Data and materials for the article:
 
 > Hamidavi, A., and Borhani, M. *The Synthetic Unconscious, Reconsidered: What Recursive Self-Interrogation of Large Language Models Produces With and Without a Leading Interview Schedule.* Submitted to *Integrative Psychological and Behavioral Science*, November 2026. A preprint is in preparation with Research Square.
+
+## Study at a glance
+
+| | |
+| --- | --- |
+| **Models** | GPT-5.4 · Claude 4.6 Sonnet · Gemini 3.1 Pro |
+| **Design** | Two arms: original directive schedule (June 2026) and neutralised schedule (November 2026) |
+| **Sessions** | 36 (six per model per arm) |
+| **Unit of analysis** | The model (n = 3); all reporting is descriptive |
+| **In this repository** | All 36 transcripts, both protocols verbatim, codebooks, both coding passes, agreement and contrast tables, agreement script |
 
 ## About the study
 
@@ -25,7 +46,19 @@ Both coding passes were performed with AI assistance, as reported in Section 2.4
 
 ## Citation
 
-Please cite the article. Citation metadata is provided in [CITATION.cff](CITATION.cff).
+Please cite the article. Citation metadata is provided in [CITATION.cff](CITATION.cff), or copy the BibTeX entry:
+
+```bibtex
+@article{hamidavi2026synthetic,
+  author  = {Hamidavi, Abbas and Borhani, Mahsa},
+  title   = {The Synthetic Unconscious, Reconsidered: What Recursive
+             Self-Interrogation of Large Language Models Produces With
+             and Without a Leading Interview Schedule},
+  journal = {Integrative Psychological and Behavioral Science},
+  year    = {2026},
+  note    = {Manuscript submitted}
+}
+```
 
 ## Licence
 
