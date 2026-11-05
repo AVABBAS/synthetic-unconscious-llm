@@ -21,6 +21,7 @@
   <img src="https://img.shields.io/badge/status-submitted-blue" alt="Status: submitted">
   <img src="https://img.shields.io/badge/journal-IPBS-1d4266" alt="Journal: Integrative Psychological and Behavioral Science">
   <img src="https://img.shields.io/badge/sessions-36-green" alt="36 sessions">
+  <a href="https://www.researchsquare.com/article/rs-11625507"><img src="https://img.shields.io/badge/preprint-Research%20Square-orange" alt="Preprint: Research Square"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey" alt="License: CC BY 4.0"></a>
 </p>
 
@@ -40,7 +41,7 @@
 
 Data and materials for the article:
 
-> Hamidavi, A., and Borhani, M. *The Synthetic Unconscious, Reconsidered: What Recursive Self-Interrogation of Large Language Models Produces With and Without a Leading Interview Schedule.* Submitted to *Integrative Psychological and Behavioral Science*, November 2026. A preprint is in preparation with Research Square.
+> Hamidavi, A., and Borhani, M. *The Synthetic Unconscious, Reconsidered: What Recursive Self-Interrogation of Large Language Models Produces With and Without a Leading Interview Schedule.* Submitted to *Integrative Psychological and Behavioral Science*, November 2026. A preprint is available at Research Square, rs-11625507 (DOI: 10.21203/rs.3.rs-11625507/v1).
 
 ## Study at a glance
 
@@ -105,7 +106,7 @@ Please cite the article. Citation metadata is provided in [CITATION.cff](CITATIO
 
 ## 🔗 Access to the article
 
-The article is under review at the *Integrative Psychological and Behavioral Science*. A preprint is in prescreening at Research Square; its public link will be added here as soon as it posts. The materials in this repository are the article's full data deposit.
+The article is under review at the *Integrative Psychological and Behavioral Science*. The preprint is available at Research Square: [researchsquare.com/article/rs-11625507](https://www.researchsquare.com/article/rs-11625507) (DOI: 10.21203/rs.3.rs-11625507/v1). The materials in this repository are the article's full data deposit.
 
 ## ⚖️ Licence
 
